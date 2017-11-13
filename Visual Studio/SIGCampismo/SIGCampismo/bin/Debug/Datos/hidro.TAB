@@ -1,0 +1,41 @@
+!table
+!version 700
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 19
+    Gid Decimal (11, 0) ;
+    Id Decimal (18, 0) ;
+    Codprov Char (4) ;
+    Codmun Char (4) ;
+    Tipo Char (40) ;
+    Nombre Char (40) ;
+    Altura Decimal (11, 0) ;
+    Ancho Decimal (11, 0) ;
+    Material Char (10) ;
+    Estilo Char (50) ;
+    Penwidth Decimal (18, 0) ;
+    Penpatt Decimal (18, 0) ;
+    Colorpen Decimal (18, 0) ;
+    Pencor Decimal (18, 0) ;
+    Pencog Decimal (18, 0) ;
+    Pencob Decimal (18, 0) ;
+    Cte Decimal (11, 0) ;
+    Codprov_19 Char (4) ;
+    Codmun_197 Char (4) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\Shapefile" = ""
+"\Shapefile\PersistentCache" = "FALSE"
+"\Spatial Reference" = ""
+"\Spatial Reference\Geographic" = ""
+"\Spatial Reference\Geographic\Projection" = ""
+"\Spatial Reference\Geographic\Projection\Clause" = "CoordSys Earth Projection 1, 104"
+"\DefaultStyles" = ""
+"\DefaultStyles\LinePen" = ""
+"\DefaultStyles\LinePen\LineWidth" = "1"
+"\DefaultStyles\LinePen\LineStyle" = "0"
+"\DefaultStyles\LinePen\Color" = "0"
+"\DefaultStyles\LinePen\Pattern" = "2"
+end_metadata

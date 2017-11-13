@@ -1,0 +1,1 @@
+Con la cuanta de adminsitrador , cuando instale Mapinfo hay que cambiar la carpeta C:\Program Files (x86)\MapInfo\Professional\AddUser\CustSymb , por esta que esta aqui , de esta forma cada vez que se trabaje en mapinfo una session nueva estos simbolos estaran

@@ -1,0 +1,10 @@
+!table
+!version 410
+!charset WindowsLatin1
+
+Definition Table
+  File "campismo.mdb"
+  Type ACCESS TABLE "Asentamientos" Charset "WindowsLatin1"
+  Fields 2
+    Nombre Char (50) ;
+    Tipo Char (50) ;

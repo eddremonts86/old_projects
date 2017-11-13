@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Eduardo Valdes Inerarte </title>
+    <!-- Bootstrap Core an other CSS -->
+    <link href="css/librerias/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/librerias/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="css/librerias/scrolling-nav.css" rel="stylesheet" type="text/css">
+    <link href="css/librerias/carrusel.css" rel="stylesheet" type="text/css">
+    <!-- Custom CSS -->
+    <link href="css/theme.css" rel="stylesheet" type="text/css">
+    <link href="img/general/ico.png" rel="shortcut icon" type="text/html">
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-bottom">
+    <div id="conf">
+    <ul class="nav pull-right" style="width: 50px;margin-right: 15px;margin-top: 10px">
+        <li class="dropdown pull-right ">
+              <a class="link dropdown-toggle" data-toggle="dropdown" href="#">
+                <span class="fa fa-cog fa-2x"></span>
+              </a>
+            <ul class="dropdown-menu" style="width: 265px;padding: 10px">
+
+                <div class="ingles">Defining language:</div>
+                <div style="display: none" class="espanol">Definir idioma:</div>
+                <div style="display: none" class="danes">Defining language:</div>
+                <div class="bre"></div>
+                <div class="btn-group" data-toggle="buttons">
+                    <label id="ING" class="btn btn-ttc active">
+                        <input type="radio" name="options" >
+                        <img src="img/sistem/en.gif">
+                    </label>
+                    <label id="ESP" class="btn btn-ttc">
+                        <input type="radio" name="options">
+                        <img src="img/sistem/es.gif">
+                    </label>
+                    <label id="DNK" class="btn btn-ttc">
+                        <input type="radio" name="options">
+                        <img src="img/sistem/dnk.png">
+                    </label>
+                </div>
+                <div class="hre"></div>
+
+                <div class="ingles">Tools:</div>
+                <div style="display: none" class="espanol">Herramientas:</div>
+                <div style="display: none" class="danes">Redskab:</div>
+                <div class="bre"></div>
+                <div class="btn-group" data-toggle="buttons">
+                    <label class="btn btn-ttc">
+                        <input type="checkbox">
+                        <i id="oll_print" class="fa fa-print"></i>
+                    </label>
+                    <label class="btn btn-ttc">
+                        <input type="checkbox">
+                         <i id="oll_download" class="fa fa-download" data-toggle="modal" data-target="#myModal"></i></span>
+                    </label>
+                    <label class="btn btn-ttc">
+                        <input type="checkbox"> Option 3
+                    </label>
+                </div>
+                <div class="hre"></div>
+
+            </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="container-fluid">
+        <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+        <div class="">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="pull-right nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="home page-scroll"><a class="fa fa-home" href="#page-top"></a></li>
+                    <!--========================================ingles==================================================-->
+                    <li class="ingles page-scroll"><a href="#intro">General Informations</a></li>
+                    <li class="ingles page-scroll"><a href="#Line">Line of Life</a></li>
+                    <li class="ingles page-scroll"><a href="#Studies">Other Studies</a></li>
+                    <li class="ingles page-scroll"><a href="#Skills">Acquired Skills</a></li>
+                    <li class="ingles page-scroll"><a href="#Award">Award</a></li>
+                    <li class="ingles page-scroll"><a href="#design">I design</a></li>
+                    <li class="ingles page-scroll"><a href="#contact">Contact</a></li>
+                    <li class="ingles page-scroll"><a href="#about ">About</a></li>
+                    <!--========================================espanol==================================================-->
+                    <li style="display: none" class="espanol page-scroll"><a href="#intro">Información General</a></li>
+                    <li style="display: none" class="espanol page-scroll"><a href="#Line">Linea de Tiempo</a></li>
+                    <li style="display: none" class="espanol page-scroll"><a href="#Studies">Otros Estudios</a></li>
+                    <li style="display: none" class="espanol page-scroll"><a href="#Skills">Avilidades</a></li>
+                    <li style="display: none" class="espanol page-scroll"><a href="#Award">Eventos y Premios</a></li>
+                    <li style="display: none" class="espanol page-scroll"><a href="#design">Mis Diseños</a></li>
+                    <li style="display: none" class="espanol page-scroll"><a href="#contact">Contactos</a></li>
+                    <li style="display: none" class="espanol page-scroll"><a href="#about ">Sobe mi</a></li>
+                    <!--========================================Danes==================================================-->
+                    <li style="display: none" class="danes page-scroll"><a href="#intro">Información General</a></li>
+                    <li style="display: none" class="danes page-scroll"><a href="#Line">Linea de Tiempo</a></li>
+                    <li style="display: none" class="danes page-scroll"><a href="#Studies">Otros Estudios</a></li>
+                    <li style="display: none" class="danes page-scroll"><a href="#Skills">Avilidades</a></li>
+                    <li style="display: none" class="danes page-scroll"><a href="#Award">Eventos y Premios</a></li>
+                    <li style="display: none" class="danes page-scroll"><a href="#design">Mis Diseños</a></li>
+                    <li style="display: none" class="danes page-scroll"><a href="#contact">Contactos</a></li>
+                    <li style="display: none" class="danes page-scroll"><a href="#about ">Sobe mi</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+
+        <!-- /.container -->
+        </nav>
+    </div>
+    <div class="to_end">
+
+        <section id="home" class="home-section">
+            <div class="container col-sm-12  col-md-12 col-lg-12">
+                <div class="row" align="center" id="pre_welcome" style="display: none">
+                    <div class="intro-section1"
+                         style="border-bottom: 20px solid #3b3b3b;border-radius: 0px 0px 10px 10px;width: 60% ">
+                        <b class="h1">Welcome</b><br>
+                        <b class="h3">Thanks for giving us somewhat of your time...</b>
+                        <h4 class="comencemos"></h4>
+                    </div>
+                    <div class="page-scroll ">
+                        <a class="fa fa-arrow-circle-down fa-4x abajo_inicio" style="" href="#intro"></a>
+                    </div>
+                </div>
+                <div class="row" align="center" id="pre_welcome_dank" style="display: none">
+                    <div class="intro-section1"
+                         style="border-bottom: 20px solid #3b3b3b;border-radius: 0px 0px 10px 10px;width: 60% ">
+                        <b class="h1">Velkommen</b><br>
+                        <b class="h3">og tak for din opmærksomhed ...</b>
+                        <h4 class="comencemos"></h4>
+                    </div>
+                    <div class="page-scroll ">
+                        <a class="fa fa-arrow-circle-down fa-4x abajo_inicio" style="" href="#intro"></a>
+                    </div>
+                </div>
+                <div class="row" align="center" id="wellcome">
+                    <div class="intro-section1"
+                         style="border-bottom: 20px solid #3b3b3b;border-radius: 0px 0px 10px 10px;width: 60% ">
+                        <b class="h1">Bienvenido</b><br>
+                        <b class="h3">Gracias por regalarnos algo de su tiempo...</b>
+                        <h4 class="comencemos"> </h4>
+                    </div>
+                    <div class="page-scroll ">
+                        <a class="fa fa-arrow-circle-down fa-4x abajo_inicio" style="" href="#intro"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="intro" class="intro-section">
+            <div class="container ">
+                <div class="row fondo intro">
+                    <div class="col-xs-12 col-sm-12  col-md-12 col-lg-12 page-header">
+                        <h1 class="ingles">General Infomations</h1>
+                        <h1 style="display: none" class="espanol">Informacion General</h1>
+                        <br>
+
+                        <div class="col-sm-5  col-md-5 col-lg-3 placeholder">
+                            <img src="img/general/inicio.jpg" class="img-thumbnail img-circle" alt="Generic placeholder thumbnail">
+                        </div>
+                        <div class="col-sm-12  col-md-5 col-lg-4" style="align-content:center">
+                            <h2>Eduardo Váldes Inerarte</h2>
+
+                            <p class="ingles"><b>Birth Day:</b> December 30th, 1986 </p>
+                            <p style="display: none" class="espanol" ><b>Dia de Nacimiento:</b> 30 de Diciembre de 1986 </p>
+
+                            <p class="ingles"><b>Birth Place:</b> Pinar del Rio, Pinar del Rio, Cuba</p>
+                            <p style="display: none" class="espanol"><b>Lugar de Nacimiento:</b> Pinar del Rio, Pinar del Rio, Cuba</p>
+
+                            <p class="ingles"><b>Citizen of:</b> Cuba </p>
+                            <p style="display: none" class="espanol"><b>Ciudadano de:</b> Cuba </p>
+
+                            <p class="ingles"><b>Titulo:</b> IT Engineer</p>
+                            <p style="display: none" class="espanol"><b>Titulo:</b> Ing Ciencias Informaticas </p>
+
+                            <p class="ingles"><b>Legal status:</b> Married </p>
+                            <p style="display: none" class="espanol"><b>Estado Civil:</b> Casado </p>
+
+                            <p class="ingles"><b>Languages:</b> Spanish,English</p>
+                            <p style="display: none" class="espanol"><b>Idiomas:</b> Espanol, Ingles</p>
+
+                        </div>
+                        <div class="col-sm-12  col-md-5 col-lg-5" style="align-content:center">
+                            <h2 class="ingles" >Contact</h2>
+                            <h2 style="display: none"  class="espanol" >Contactos</h2>
+
+                            <p class="ingles"><b>Direccion:</b> Street 10 #75 B/C,Rpt Ceferino Fernández, Pinar del Rio, Pinar del Rio, Cuba</p>
+                            <p style="display: none" class="espanol"><b>Direccion:</b> Calle 10 b/c. Reparto Ceferino Fernández. Pinar del Rio. Pinar del Rio. </p>
+
+                            <p class="ingles"><b>Telephone fixed:</b> (+53)487583 </p>
+                            <p style="display: none" class="espanol"><b>Telefono Fijo:</b> (+53)487583 </p>
+
+                            <p class="ingles"><b>Telephone Movil:</b> (+53)54293875 </p>
+                            <p style="display: none" class="espanol"><b>Telefono Movil:</b> (+53)54293875 </p>
+
+                            <p class="ingles"><b>Personal Email:</b> einerarte@nauta.cu </p>
+                            <p style="display: none" class="espanol"><b>Email Personal:</b> einerarte@nauta.cu </p>
+
+                            <p class="ingles"><b>Word Email:</b> eduardo.inerarte@gmail.com</p>
+                            <p style="display: none" class="espanol"><b>Email de Trabajo:</b> eduardo.inerarte@gmail.com</p>
+
+
+                        </div>
+
+                    </div>
+                    <div class="ingles alert ">
+                        My name is Eduardo Valdés Inerarte sprouted in the city of pine grove of the river, pine grove
+                        municipality of the river the day 30th December 1986 with numbering of identity 86123001707.
+                        At present it lives in the Ceferino Fernández cast, it is silent 10 between B/c, No. 75 , with telephone: 725483.
+                        I sprouted in a humble family of working orígeneses because my woman nurse mother besides technical middle in
+                        economy,
+                        thanks to the efforts of it could study, move close until the university and in repayment to all that
+                        effort today am graduated of information engineering somewhat for which she fights as much as I.
+                        Carry out my trainings and social service in the national office of statisticses and information (ONEI)
+                        there acquired very good experiences for my labor life above all in the environment of the relations
+                        inter- personnels with my parnert.
+                    </div>
+                    <div class="espanol alert" style="display: none">
+                        Mi nombre es Eduardo Valdés Inerarte nací en la ciudad de Pinar del Río,
+                        municipio Pinar del Río el día 30 de Diciembre de 1986 con numero de identidad 86123001707.
+                        Actualmente vivo en el reparto Ceferino Fernández, calle 10 entre B/C, No 75, con teléfono: 725483.
+                        Nací en una familia humilde de orígenes obreros pues mi madre enfermera además de técnico medio en
+                        economía,
+                        gracias a los esfuerzos de ella pude estudiar, llegar hasta la universidad y en retribución a todo ese
+                        esfuerzo hoy soy graduado de Ingeniería informática algo por lo que ella lucho tanto como yo.
+                        Realice mis prácticas y servicio social en la Oficina Nacional de Estadísticas e Información (ONEI)
+                        allí adquirí experiencias muy buenas para mi vida laboral sobre todo en el ámbito de las relaciones
+                        inter-personales con mis Companeros.
+                    </div>
+                </div>
+            </div>
+            <div class="page-scroll ">
+                <a class="fa fa-arrow-circle-down fa-4x abajo" style="" href="#Line"></a>
+            </div>
+        </section>
+
+        <section id="Line" class="line-section  visible-lg ">
+         <div class="container">
+             <div class="row fondo_top">
+                 <div style="margin-top: -110px;margin-left: 0.5px" >
+                     <span class="fa fa-location-arrow fa-4x fondoround"></span>
+                     <div class=" ingles titulos">Line of Life</div>
+                     <div class="espanol titulos" style="display: none">Linea de Tiempo</div>
+                 </div>
+                 <div class="row anti_row">
+                     <div id="line_bady" class="carousel" style="color:#3b3b3b">
+                         <div class="reel" style="overflow: visible; -webkit-transform: translate(0px, 0px);">
+                             <span style="margin-right: 50px"></span>
+                             <article class="bordes">
+                                 <a href="#" class="image featured"><img src="img/images/byn/prim.jpg" alt=""></a>
+                                 <header>
+                                     <h3 class="ingles"><b href="#">Primary <span style="font-size: 12px">Elementary School</span></b></h3>
+                                     <h3 class="espanol" style="display: none"><b href="#">Primaria <span style="font-size: 12px">Escuela Primaria</span></b></h3>
+                                     1991-1997
+                                 </header>
+                                 <p>"Pablo de la Torriente Brau"<br> &nbsp;</p>
+                             </article>
+                             <article class="bordes">
+                                 <b href="#" class="image featured"><img src="img/images/byn/secun.jpg" alt=""></b>
+                                 <header>
+                                     <h3 class="ingles"><b href="#">Secondary <span style="font-size: 12px">High School</span></b></h3>
+                                     <h3 class="espanol" style="display: none"><b href="#">Secundaria <span style="font-size: 12px">Escuela Secundaria</span></b></h3>
+                                     1997-2000
+                                 </header>
+                                 <p>"Combate de Baconagua"<br> &nbsp;</p>
+                             </article>
+                             <article class="bordes">
+                                 <b href="#" class="image featured"><img src="img/images/byn/pre.jpg" alt=""></b>
+                                 <header>
+                                     <h3 class="ingles"><b href="#">University Pre</b></h3>
+                                     <h3 class="espanol" style="display: none"><b href="#">Pre-Univercitario</b></h3>
+                                     2001-2004
+                                 </header>
+                                 <p>"Antonio Guiteras Holmes".<br> &nbsp;</p>
+
+                             </article>
+                             <article class="bordes">
+                                 <b href="#" class="image featured"><img src="img/images/byn/univ.jpg" alt=""></b>
+                                 <header>
+                                     <h3 class="ingles"><b href="#">University</b></h3>
+                                     <h3 class="espanol" style="display: none"><b href="#">Univercidad</b></h3>
+                                     2005-2010
+                                 </header>
+                                 <p class="ingles">University of the information sciences(UCI)</p>
+                                 <p class="espanol" style="display: none">Univercidad de las Ciencias Informaticas(UCI)</p>
+
+                             </article>
+                             <article class="bordes">
+                                 <b href="#" class="image featured"><img src="img/images/byn/onei.jpg" alt=""></b>
+                                 <header>
+                                     <h3><b href="#">ONEI</b></h3>
+                                     2010-2012
+                                 </header>
+                                 <p class="ingles" >Organ of the nation for the statistics and the information.</p>
+                                 <p class="espanol" style="display: none" >Organo Nacional de Estadistica e informacion.</p>
+                             </article>
+                             <article class="bordes">
+                                 <b href="#" class="image featured"><img src="img/images/byn/geoc.jpg" alt=""></b>
+                                 <header>
+                                     <h3><b href="#">GEOCUBA</b></h3>
+                                     2012-2014
+                                 </header>
+                                 <p class="ingles">Specialist enterprise in works of Cuban geologia.</p>
+                                 <p class="espanol" style="display: none">Empresa especialista en Geologia Cubana</p>
+                             </article>
+                             <article class="bordes">
+                                 <b href="#" class="image featured"><img src="img/images/byn/indep.jpg" alt=""></b>
+                                 <header>
+                                     <h3 class="ingles"><b href="#">Independiente</b></h3>
+                                     <h3 class="espanol" style="display: none"><b href="#">Independiente</b></h3>
+                                     2014-20xx
+                                 </header>
+                                 <p class="ingles">Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+                                 <p class="espanol" style="display: none">Aqui va un texto referwnte a este apartado.</p>
+                             </article>
+                             <article style="background: transparent">
+
+
+                             </article>
+                         </div>
+                         <span class="forward fa fa-2x" style="display: inline;"></span>
+                         <span class="backward fa fa-2x" style="display: inline;"></span>
+                     </div>
+                 </div>
+             </div>
+         </div>
+        </section>
+
+        <section id="Studies" class="studies-section">
+
+            <div class="container">
+                <div class="row fondo_top">
+                    <div style="margin-top: -110px;margin-left: 0.5px">
+                        <span class="fa fa-asterisk fa-4x fondoround"></span>
+
+                        <div class="titulos">Other Studies</div>
+                    </div>
+                    <div class="row" >
+                            <div id="id_pree_1" class="visible-lg col-sm-5   col-md-5 col-lg-3 placeholder img_mov social_back_award_img">
+                                <img src="img/general/skill/skill.png" class="img-thumbnail img-circle" alt="Generic placeholder thumbnail">
+                            </div>
+                            <div id="id_pree_2" class="visible-lg col-sm-5   col-md-5 col-lg-3 placeholder img_mov social_back_award_img">
+                                <img src="img/general/skill/skill0.png" class="img-thumbnail img-circle" alt="Generic placeholder thumbnail">
+                            </div>
+                            <div id="id_pree_3" class="visible-lg col-sm-5  col-md-5 col-lg-3 placeholder img_mov social_back_award_img_">
+                                <img src="img/general/skill/skill1.png" class="img-thumbnail img-circle" alt="Generic placeholder thumbnail">
+                            </div>
+                            <div id="id_pree_4" class=" col-sm-5  col-md-5 col-lg-3 placeholder img_mov social_back_award_img_">
+                                <img src="img/general/skill/skill2.png" class="img-thumbnail img-circle" alt="Generic placeholder thumbnail">
+                            </div>
+
+                            <div id="award_" class="col-lg-12 img_body" style="display: block;text-align: left">
+                                <div class="social_back_award">
+                                    <div class="panel-heading"></div>
+                                    <div id="award_body" class="panel-body">
+                                        <div id="grad_bady" class="row col-xs-12" style="color: #ffffff">
+                                            <ul id="myTab" class="nav nav-tabs">
+                                                <li class="active"><a href="#home_profile" data-toggle="tab" aria-expanded="true">
+                                                    <i class="fa fa-users fa-3x"></i>
+                                                    <span class="h2">Pre Graduate</span>
+                                                </a></li>
+                                                <li class=""><a href="#profile" data-toggle="tab" aria-expanded="false">
+                                                    <i class="fa fa-users fa-3x"></i>
+                                                    <span class="h2">Post Graduate</span>
+                                                </a></li>
+                                            </ul>
+                                            <div id="myTabContent" class="tab-content tabcolor">
+                                                <div class="tab-pane fade active in" id="home_profile">
+                                                    <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>GNU/Linux basic.<br>
+                                                    <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>GNU/Linux Medio.<br>
+                                                    <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>GNU/Linux advanced.<br>
+                                                    <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>Complement of base of datas (Mysql, PostgresSQL).<br>
+                                                    <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>Patent registers and confer a licentiate on (GNU).<br>
+                                                    <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>System of managers of content (Drupal, Jommla, PhpFusion,WordPress).<br>
+                                                    <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>HTML4 y CSS2 basic..<br>
+                                                    <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>HTML4 and CSS2 Medio.<br>
+                                                    <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>Proofs of software.<br>
+                                                    <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>Tools for the collaborative work.<br>
+                                                    <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>Programming in Bash language.<br>
+                                                    <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>Programming in Perl. language<br>
+                                                    <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>Programming in PHP language.<br>
+                                                </div>
+                                                <div class="tab-pane fade" id="profile">
+                                                    <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>HTML4 and CSS2 advanced.<br>
+                                                    <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>Course of installation and administration of the Sige tool.<br>
+                                                    <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>Postgrado of Linux.<br>
+                                                    <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>Course of installation and administration of system of managers of content (WordPress).<br>
+                                                    <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>Course of web implementation with ExtJs.<br>
+                                                    <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>Course of web implementation with Jquery.<br>
+                                                    <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>Course of web implementation with JqueryMobile.<br>
+                                                    <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>HTML5 and CSS3 Medio.<br>
+                                                    <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>HTML5 y CSS3 Avansado .<br>
+                                                    <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>Course of installation and administration of servers of light clients.<br>
+                                                    <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>Course of design and implementacion of templateses for Joomla ( 2.5 and 3.x.x ).<br>
+                                                    <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>Course of design and templates implementacion and moduloses for Drupal (7.x).<br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                   </div>
+                   </div>
+                   </div>
+        </section>
+
+        <section id="Skills" class="skills-section">
+            <div class="container">
+                <div class="row fondo_top">
+                    <div style="margin-top: -110px;margin-left: 0.5px">
+                        <span class="fa fa-code fa-4x fondoround"></span>
+
+                        <div class="titulos">Acquired Skills</div>
+                    </div>
+                    <div class="row"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Award" class="award-section">
+            <div class="container">
+                <div class="row fondo_top">
+                    <div style="margin-top: -110px;margin-left: 0.5px">
+                        <span class="fa fa-unsorted fa-4x fondoround"></span>
+                        <div class="titulos">Happenings and Award</div>
+                    </div>
+                    <div class="row">
+                        <div id="post_body">
+                            <div class="col-lg-5">
+                                <div class="social_back_award">
+                                    <div class="panel-heading"><i class="fa fa-users fa-3x"></i><span class="comencemos" style="font-size: 25px"> Happenings</span></div>
+                                    <div class="panel-body">
+                                        <h3>Pre Graduate</h3>
+                                        <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>2005- Jornada
+                                        Martiana (fac 10)<br>
+                                        <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>2007- Jornada
+                                        Martiana (fac 10)<br>
+                                        <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>2009- Jornada
+                                        Martiana (fac 10)<br>
+                                        <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>2005- Jornada
+                                        Martiana(Universidad)<br>
+                                        <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>2007- Jornada
+                                        Martiana (Universidad)<br>
+                                        <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>2005- Jornada
+                                        Científica (fac 10)<br>
+                                        <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>2006- Jornada
+                                        Científica (fac 10)<br>
+                                        <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>2007- Jornada
+                                        Científica (fac 10)<br>
+                                        <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>2008- Jornada
+                                        Científica (fac 10)<br>
+                                        <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>2009- Jornada
+                                        de instalación de Linux (Universidad)<br>
+
+                                        <h3>Post Graduate</h3>
+                                        <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>2011- Evento
+                                        Estadístico Provincial<br>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="social_back_award">
+                                    <div class="panel-heading"><i class="fa fa-user fa-3x"></i><span class="comencemos" style="font-size: 25px"> Award</span>
+                                    </div>
+                                    <div class="panel-body">
+                                        <h3>Pre Graduate</h3>
+                                        <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>Premio
+                                        relevante en Jornada Martiana 2005 (fac 10).<br>
+                                        <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>Premio
+                                        relevante en Jornada Martiana 2007 (fac 10).<br>
+                                        <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>1ro lugar en
+                                        Jornada Científica (fac 10) 2007.<br>
+                                        <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>1ro lugar en
+                                        Jornada Científica (fac 10) 2008.<br>
+                                        <span class="fa fa-info-circle fa-2x" style="padding: 5px"></span>Ademas de mensiones en
+                                        otros Jornadas Científicas escolares.<br>
+
+                                        <h3>Post Graduate</h3>
+                                        <span class="fa fa-arrow-circle-right fa-1x" style="padding: 5px"></span>Premio
+                                        relevante en Evento Estadístico Provincial 2011.<br>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="design" class="design-section">
+            <div class="container">
+                <div class="row fondo_top">
+                    <div style="margin-top: -110px;margin-left: 0.5px">
+                        <span class="fa fa-asterisk fa-4x fondoround"></span>
+
+                        <div class="titulos">
+                            I design amazing things
+                        <!-- Controls -->
+                        <div class="relleno visible-lg">
+                            <a href="#carousel-example-generic" data-slide="prev"><span class="fa fa-chevron-circle-left fa-1x"></span></a>
+                            <i style="float:left; font-size: 24px; margin-left: 5px; margin-right: 5px">  |  </i>
+                            <a href="#carousel-example-generic" data-slide="next"><span class="fa fa-chevron-circle-right fa-1x"></span></a>
+                        </div>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="carousel-example-generic" class="carousel slide carruselBT" data-ride="carousel">
+                              <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+                                </ol>
+                              <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+
+                                <div class=" container item active">
+                                        <div class="row">
+                                        <div class="sombra_img col-lg-8 col-md-11 col-sm-11">
+                                            <img src="img/bilding/blog.jpg" alt="...">
+                                        </div>
+                                        <div class="sombra col-lg-3 col-md-11 col-sm-11">
+                                            <p>Lego el pescuezo recién lavado como para un jueves de guillotina una maceta con
+                                                hierbabuena y otra con un boniato que me hastía ya que esta cargante convolvulácea
+                                                me está, invadiendo el cuarto con sus hojas.
+                                            </p>
+                                            <p>Lego los suburbios de una idea un tríptico de espejos que me agrede el mar allá al
+                                                alcance de la mano mis cóleras por orden alfabético y un breve y curioso estado de
+                                                ánimo que todavía no sé si es inocencia o estupidez malsana o alegría.
+                                            </p>
+                                            <p>Lego el pescuezo recién lavado como para un jueves de guillotina una maceta con
+                                                hierbabuena y otra con un boniato que me hastía ya que esta cargante convolvulácea
+                                                me está, invadiendo el cuarto con sus hojas.
+                                            </p>
+                                            <p>Lego los suburbios de una idea un tríptico de espejos que me agrede el mar allá al
+                                                alcance de la mano mis cóleras por orden alfabético y un breve y curioso estado de
+                                                ánimo que todavía no sé si es inocencia o estupidez malsana o alegría.
+                                            </p>
+                                        </div>
+                                       </div>
+                                    </div>
+                                <div class=" container item">
+                                        <div class="row">
+                                        <div class="sombra_img col-lg-8 col-md-11 col-sm-11">
+                                            <img src="img/bilding/blog.jpg" alt="...">
+                                        </div>
+                                        <div class="sombra col-lg-3 col-md-11 col-sm-11">
+                                            <p>Lego el pescuezo recién lavado como para un jueves de guillotina una maceta con
+                                                hierbabuena y otra con un boniato que me hastía ya que esta cargante convolvulácea
+                                                me está, invadiendo el cuarto con sus hojas.
+                                            </p>
+                                            <p>Lego los suburbios de una idea un tríptico de espejos que me agrede el mar allá al
+                                                alcance de la mano mis cóleras por orden alfabético y un breve y curioso estado de
+                                                ánimo que todavía no sé si es inocencia o estupidez malsana o alegría.
+                                            </p>
+                                            <p>Lego el pescuezo recién lavado como para un jueves de guillotina una maceta con
+                                                hierbabuena y otra con un boniato que me hastía ya que esta cargante convolvulácea
+                                                me está, invadiendo el cuarto con sus hojas.
+                                            </p>
+                                            <p>Lego los suburbios de una idea un tríptico de espejos que me agrede el mar allá al
+                                                alcance de la mano mis cóleras por orden alfabético y un breve y curioso estado de
+                                                ánimo que todavía no sé si es inocencia o estupidez malsana o alegría.
+                                            </p>
+                                        </div>
+                                       </div>
+                                    </div>
+                                <div class=" container item">
+                                        <div class="row">
+                                        <div class="sombra_img col-lg-8 col-md-11 col-sm-11">
+                                            <img src="img/bilding/blog.jpg" alt="...">
+                                        </div>
+                                        <div class="sombra col-lg-3 col-md-11 col-sm-11">
+                                            <p>Lego el pescuezo recién lavado como para un jueves de guillotina una maceta con
+                                                hierbabuena y otra con un boniato que me hastía ya que esta cargante convolvulácea
+                                                me está, invadiendo el cuarto con sus hojas.
+                                            </p>
+                                            <p>Lego los suburbios de una idea un tríptico de espejos que me agrede el mar allá al
+                                                alcance de la mano mis cóleras por orden alfabético y un breve y curioso estado de
+                                                ánimo que todavía no sé si es inocencia o estupidez malsana o alegría.
+                                            </p>
+                                            <p>Lego el pescuezo recién lavado como para un jueves de guillotina una maceta con
+                                                hierbabuena y otra con un boniato que me hastía ya que esta cargante convolvulácea
+                                                me está, invadiendo el cuarto con sus hojas.
+                                            </p>
+                                            <p>Lego los suburbios de una idea un tríptico de espejos que me agrede el mar allá al
+                                                alcance de la mano mis cóleras por orden alfabético y un breve y curioso estado de
+                                                ánimo que todavía no sé si es inocencia o estupidez malsana o alegría.
+                                            </p>
+                                        </div>
+                                       </div>
+                                    </div>
+                                <div class=" container item">
+                                    <div class="row">
+                                        <div class="sombra_img col-lg-8 col-md-11 col-sm-11">
+                                            <img src="img/bilding/blog.jpg" alt="...">
+                                        </div>
+                                        <div class="sombra col-lg-3 col-md-11 col-sm-11">
+                                            <p>Lego el pescuezo recién lavado como para un jueves de guillotina una maceta con
+                                                hierbabuena y otra con un boniato que me hastía ya que esta cargante convolvulácea
+                                                me está, invadiendo el cuarto con sus hojas.
+                                            </p>
+                                            <p>Lego los suburbios de una idea un tríptico de espejos que me agrede el mar allá al
+                                                alcance de la mano mis cóleras por orden alfabético y un breve y curioso estado de
+                                                ánimo que todavía no sé si es inocencia o estupidez malsana o alegría.
+                                            </p>
+                                            <p>Lego el pescuezo recién lavado como para un jueves de guillotina una maceta con
+                                                hierbabuena y otra con un boniato que me hastía ya que esta cargante convolvulácea
+                                                me está, invadiendo el cuarto con sus hojas.
+                                            </p>
+                                            <p>Lego los suburbios de una idea un tríptico de espejos que me agrede el mar allá al
+                                                alcance de la mano mis cóleras por orden alfabético y un breve y curioso estado de
+                                                ánimo que todavía no sé si es inocencia o estupidez malsana o alegría.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" container item">
+                                    <div class="row">
+                                        <div class="sombra_img col-lg-8 col-md-11 col-sm-11">
+                                            <img src="img/bilding/blog.jpg" alt="...">
+                                        </div>
+                                        <div class="sombra col-lg-3 col-md-11 col-sm-11">
+                                            <p>Lego el pescuezo recién lavado como para un jueves de guillotina una maceta con
+                                                hierbabuena y otra con un boniato que me hastía ya que esta cargante convolvulácea
+                                                me está, invadiendo el cuarto con sus hojas.
+                                            </p>
+                                            <p>Lego los suburbios de una idea un tríptico de espejos que me agrede el mar allá al
+                                                alcance de la mano mis cóleras por orden alfabético y un breve y curioso estado de
+                                                ánimo que todavía no sé si es inocencia o estupidez malsana o alegría.
+                                            </p>
+                                            <p>Lego el pescuezo recién lavado como para un jueves de guillotina una maceta con
+                                                hierbabuena y otra con un boniato que me hastía ya que esta cargante convolvulácea
+                                                me está, invadiendo el cuarto con sus hojas.
+                                            </p>
+                                            <p>Lego los suburbios de una idea un tríptico de espejos que me agrede el mar allá al
+                                                alcance de la mano mis cóleras por orden alfabético y un breve y curioso estado de
+                                                ánimo que todavía no sé si es inocencia o estupidez malsana o alegría.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" container item">
+                                    <div class="row">
+                                        <div class="sombra_img col-lg-8 col-md-11 col-sm-11">
+                                            <img src="img/bilding/blog.jpg" alt="...">
+                                        </div>
+                                        <div class="sombra col-lg-3 col-md-11 col-sm-11">
+                                            <p>Lego el pescuezo recién lavado como para un jueves de guillotina una maceta con
+                                                hierbabuena y otra con un boniato que me hastía ya que esta cargante convolvulácea
+                                                me está, invadiendo el cuarto con sus hojas.
+                                            </p>
+                                            <p>Lego los suburbios de una idea un tríptico de espejos que me agrede el mar allá al
+                                                alcance de la mano mis cóleras por orden alfabético y un breve y curioso estado de
+                                                ánimo que todavía no sé si es inocencia o estupidez malsana o alegría.
+                                            </p>
+                                            <p>Lego el pescuezo recién lavado como para un jueves de guillotina una maceta con
+                                                hierbabuena y otra con un boniato que me hastía ya que esta cargante convolvulácea
+                                                me está, invadiendo el cuarto con sus hojas.
+                                            </p>
+                                            <p>Lego los suburbios de una idea un tríptico de espejos que me agrede el mar allá al
+                                                alcance de la mano mis cóleras por orden alfabético y un breve y curioso estado de
+                                                ánimo que todavía no sé si es inocencia o estupidez malsana o alegría.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" container item">
+                                    <div class="row">
+                                        <div class="sombra_img col-lg-8 col-md-11 col-sm-11">
+                                            <img src="img/bilding/blog.jpg" alt="...">
+                                        </div>
+                                        <div class="sombra col-lg-3 col-md-11 col-sm-11">
+                                            <p>Lego el pescuezo recién lavado como para un jueves de guillotina una maceta con
+                                                hierbabuena y otra con un boniato que me hastía ya que esta cargante convolvulácea
+                                                me está, invadiendo el cuarto con sus hojas.
+                                            </p>
+                                            <p>Lego los suburbios de una idea un tríptico de espejos que me agrede el mar allá al
+                                                alcance de la mano mis cóleras por orden alfabético y un breve y curioso estado de
+                                                ánimo que todavía no sé si es inocencia o estupidez malsana o alegría.
+                                            </p>
+                                            <p>Lego el pescuezo recién lavado como para un jueves de guillotina una maceta con
+                                                hierbabuena y otra con un boniato que me hastía ya que esta cargante convolvulácea
+                                                me está, invadiendo el cuarto con sus hojas.
+                                            </p>
+                                            <p>Lego los suburbios de una idea un tríptico de espejos que me agrede el mar allá al
+                                                alcance de la mano mis cóleras por orden alfabético y un breve y curioso estado de
+                                                ánimo que todavía no sé si es inocencia o estupidez malsana o alegría.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" container item">
+                                    <div class="row">
+                                        <div class="sombra_img col-lg-8 col-md-11 col-sm-11">
+                                            <img src="img/bilding/blog.jpg" alt="...">
+                                        </div>
+                                        <div class="sombra col-lg-3 col-md-11 col-sm-11">
+                                            <p>Lego el pescuezo recién lavado como para un jueves de guillotina una maceta con
+                                                hierbabuena y otra con un boniato que me hastía ya que esta cargante convolvulácea
+                                                me está, invadiendo el cuarto con sus hojas.
+                                            </p>
+                                            <p>Lego los suburbios de una idea un tríptico de espejos que me agrede el mar allá al
+                                                alcance de la mano mis cóleras por orden alfabético y un breve y curioso estado de
+                                                ánimo que todavía no sé si es inocencia o estupidez malsana o alegría.
+                                            </p>
+                                            <p>Lego el pescuezo recién lavado como para un jueves de guillotina una maceta con
+                                                hierbabuena y otra con un boniato que me hastía ya que esta cargante convolvulácea
+                                                me está, invadiendo el cuarto con sus hojas.
+                                            </p>
+                                            <p>Lego los suburbios de una idea un tríptico de espejos que me agrede el mar allá al
+                                                alcance de la mano mis cóleras por orden alfabético y un breve y curioso estado de
+                                                ánimo que todavía no sé si es inocencia o estupidez malsana o alegría.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="row fondo_top">
+                    <div style="margin-top: -110px;margin-left: 0.5px">
+                        <span class="fa fa-users fa-4x fondoround"></span>
+
+                        <div class="titulos">Contact</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6  col-md-5 col-lg-2 social_back fondo_izq">
+                            <div>
+                                <span class="fa fa-home fa-5x fondoround"></span>
+
+                                <h3>Mailing Address</h3>
+                                <p>
+                                    Street 10 #75 B/C,<br>
+                                    Rpt Ceferino Fernández,<br>
+                                    Pinar del Rio, Pinar del Rio, <br>
+                                    Cuba
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6  col-md-5 col-lg-2 social_back fondo_izq">
+                            <div>
+                                <span class="fa fa-comment fa-5x fondoround"></span>
+
+                                <h3>Social</h3>
+
+                                <p>
+                                    <span style="margin-right: 10px;margin-bottom: 10px" class="fa fa-twitter fa-1x"></span><a
+                                        href="http://twitter.com/n33co">@n33co</a><br>
+                                    <span style="margin-right: 10px;margin-bottom: 10px"
+                                          class="fa fa-facebook-square fa-1x"></span><a href="#">facebook.com/untitled</a><br>
+                                    <span style="margin-right: 10px;margin-bottom: 10px"
+                                          class="fa fa-google-plus-square fa-1x"></span><a href="#">facebook.com/untitled</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6  col-md-5 col-lg-2 social_back fondo_izq">
+                            <div>
+                                <span class="fa fa-envelope-o fa-5x fondoround"></span>
+
+                                <h3>Email</h3>
+
+                                <p>
+                                    <span class="fa fa-envelope fa-1x" style="margin-right: 10px;margin-bottom: 10px"></span><a
+                                        href="#">einerarte@nauta.cu</a><br>
+                                    <span class="fa fa-envelope fa-1x" style="margin-right: 10px;margin-bottom: 10px"></span><a
+                                        href="#">eduardo.inerarte@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6  col-md-5 col-lg-2 social_back fondo_izq">
+                            <div>
+                                <span class="fa fa-phone fa-5x fondoround"></span>
+
+                                <h3>Phone (+53)</h3>
+
+                                <p>
+                                    <span class="fa fa-phone-square fa-1x"
+                                          style="margin-right: 10px;margin-bottom: 10px"></span>487583<br>
+                                    <span class="fa fa-phone-square fa-1x"
+                                          style="margin-right: 10px;margin-bottom: 10px"></span>54293875
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="row fondo_izq_about">
+                    <div class="row">
+                        <div style="text-align: center;" class="grande sub-header page-header">
+                            <h2>Designed &amp; Implemented by Eduardo Váldes Inerarte</h2>
+                            <h2>© 2015. All rights reserved.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <div id="scrit">
+            <!-- Core JavaScript Files -->
+            <script src="js/bootstrap/jquery-1.11.2.js"></script>
+            <script src="js/bootstrap/bootstrap.js"></script>
+            <script src="js/bootstrap/bootstrap.min.js"></script>
+            <script src="js/bootstrap/jquery.easing.min.js"></script>
+            <script src="js/bootstrap/carousel.js"></script>
+            <script src="js/bootstrap/scrolling-nav.js"></script>
+            <script src="js/bootstrap/modal.js"></script>
+            <script src="js/bootstrap/dropdown.js"></script>
+            <script src="js/bootstrap/button.js"></script>
+            <!-- Core JavaScript Files -->
+            <script src="js/carrusel/jquery.dropotron.min.js"></script>
+            <script src="js/carrusel/skel.min.js"></script>
+            <script src="js/carrusel/init.js"></script>
+            <!-- Custom Theme JavaScript -->
+            <script src="js/index.js"></script>
+    </div>
+</body>
+</html>

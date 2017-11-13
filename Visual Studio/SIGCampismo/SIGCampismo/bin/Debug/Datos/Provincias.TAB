@@ -1,0 +1,13 @@
+!table
+!version 410
+!charset WindowsLatin1
+!edit_version 450
+
+Definition Table
+  File "campismo.mdb"
+  Type ACCESS TABLE "Provincias" Charset "WindowsLatin1"
+  Fields 4
+    idprovincia Integer ;
+    Nombre_Provincia Char (40) ;
+    img_provincia Char (50) ;
+    img_prov_instalac Char (50) ;

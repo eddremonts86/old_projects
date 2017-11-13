@@ -1,0 +1,219 @@
+
+
+/*********************************************************************************/
+/* Carousel                                                                      */
+/*********************************************************************************/
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    padding: 2em 0 2em 0;
+}
+
+.carousel {
+    padding: 1.5em 0 1.5em 0;
+}
+
+.carousel .reel {
+    padding: 0 1.5em 0 1.5em;
+}
+
+.carousel article {
+    width: 18em;
+    margin: 0 1.25em 0 0;
+    border-radius: 2px 2px 5px 5px;
+    -moz-border-radius: 2px 2px 5px 5px;
+    -webkit-border-radius: 2px 2px 5px 5px;
+    -o-border-radius: 2px 2px 5px 5px;
+}
+
+.carousel .forward,
+.carousel .backward {
+    position: absolute;
+    top: 50%;
+    width: 6em;
+    height: 12em;
+    margin-top: -6em;
+    cursor: pointer;
+}
+
+.carousel .forward {
+    right: 0;
+}
+
+.carousel .backward {
+    left: 0;
+}
+
+.carousel .forward:before,
+.carousel .backward:before {
+    content: '';
+    display: block;
+    width: 6em;
+    height: 6em;
+    border-radius: 100%;
+    background-color: rgba(59, 59, 59, 0.50);
+    position: absolute;
+    top: 50%;
+    margin-top: -3em;
+    -moz-transition: background-color 0.35s ease-in-out;
+    -webkit-transition: background-color 0.35s ease-in-out;
+    -o-transition: background-color 0.35s ease-in-out;
+    -ms-transition: background-color 0.35s ease-in-out;
+    transition: background-color 0.35s ease-in-out;
+    -webkit-backface-visibility: hidden;
+}
+
+.carousel .forward:after,
+.carousel .backward:after {
+    content: '';
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    top: 50%;
+    margin: -1.5em 0 0 0;
+    background: url('../../img/images/arrow.svg') no-repeat center center;
+}
+
+.carousel .forward:after {
+    right: -0.25em;
+}
+
+.carousel .backward:after {
+    left: -0.25em;
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.carousel .forward:before {
+    right: -3em;
+}
+
+.carousel .backward:before {
+    left: -3em;
+}
+
+.carousel .forward:hover:before,
+.carousel .backward:hover:before {
+    background-color: rgba(215, 215, 215, 0.50);
+}
+
+.carousel .reel {
+    white-space: nowrap;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding: 0 0 0 0;
+    *padding: 0 2em 0 2em;
+}
+
+.carousel article {
+    display: inline-block;
+    width: 18em;
+    background: #fff;
+    text-align: center;
+    padding: 0 1em 3em 1em;
+    margin: 0 2em 0 0;
+    white-space: normal;
+    opacity: 1.0;
+    -moz-transition: opacity 0.75s ease-in-out;
+    -webkit-transition: opacity 0.75s ease-in-out;
+    -o-transition: opacity 0.75s ease-in-out;
+    -ms-transition: opacity 0.75s ease-in-out;
+    transition: opacity 0.75s ease-in-out;
+}
+
+.carousel article.loading {
+    opacity: 0;
+}
+
+.carousel article .image {
+    position: relative;
+    left: -1em;
+    top: 0;
+    width: auto;
+    margin-right: -2em;
+    margin-bottom: 3em;
+    border-bottom:10px solid #3b3b3b;
+}
+
+.carousel article p {
+    text-align: center;
+}
+
+/* Images */
+
+.image {
+    position: relative;
+    display: inline-block;
+    border: 0;
+    outline: 0;
+}
+
+/* Uncomment the block below if you want linked images to highlight on hover */
+
+a.image:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    opacity: 0;
+    -moz-transition: opacity 0.35s ease-in-out;
+    -webkit-transition: opacity 0.35s ease-in-out;
+    -o-transition: opacity 0.35s ease-in-out;
+    -ms-transition: opacity 0.35s ease-in-out;
+    transition: opacity 0.35s ease-in-out;
+}
+
+a.image:hover:before {
+    opacity: 0.15;
+}
+
+.image img {
+    display: block;
+    width: 100%;
+}
+
+.image.full {
+    display: block;
+    width: 100%;
+}
+
+.image.featured {
+    display: block;
+    width: 100%;
+    margin: 0 0 4em 0;
+}
+
+.image.left {
+    float: left;
+    margin: 0 2em 2em 0;
+}
+
+.image.centered {
+    display: block;
+    margin: 0 0 2em 0;
+}
+
+.image.centered img {
+    margin: 0 auto;
+    width: auto;
+}
+
+#tab_studies a:hover {
+    color: #fff;
+}
+
+#tab_studies a {
+    color: #fff;
+}
+
+#tab_studies {
+    color: #ffffff
+}
