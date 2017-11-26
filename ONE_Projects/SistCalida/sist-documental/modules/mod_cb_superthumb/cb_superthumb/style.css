@@ -1,0 +1,44 @@
+.superthumb_wrapper {
+	height:1%;}
+div.superthumb_inner {
+	margin-right:9px;
+	margin-bottom:2px;
+	text-align:center;
+	padding:2px;
+	height:100px;
+	float:left;
+}
+div.superthumb_inner:hover {
+	background: url(bgstrip.png) #cccccc;
+
+}
+.superthumb_inner:hover a {
+}
+a.superthumb_uname {
+	font-size:11px;
+	color:#333333;
+	font-weight:bold;
+}
+.superthumb_gjive a {
+	font-size:10px;}
+	
+.superthumb_icon {
+	width:20px;
+	float:left;
+
+
+}
+
+.superthumb_icon hover {
+
+
+}
+.superthumb_icons {
+display:block;
+line-height:9px;
+height:18px;
+font-size:9px;
+width:70px;
+
+
+}

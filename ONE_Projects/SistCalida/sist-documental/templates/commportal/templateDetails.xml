@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="template">
+	<name>commportal</name>
+	<creationDate>July 2008</creationDate>
+	<author>Shape5.com</author>
+	<copyright>Shape5</copyright>
+	<authorEmail>contact@shape5.com</authorEmail>
+	<authorUrl>http://www.shape5.com</authorUrl>
+	<version>1.0</version>
+	<description>CommPortal - Shape 5 July Club 2008 Template. <![CDATA[
+	<br /><a target="_blank" href="http://www.shape5.com">Click here</a> to visit Shape5.com]]></description>
+	<files>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>loggedout.php</filename>
+		<filename>loggedin.php</filename>
+		<filename>params.ini</filename>
+		<filename>favicon.ico</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>s5_suckerfish.php</filename>
+		<filename>s5_no_moo_menu.php</filename>	
+		<filename>js/IEsuckerfish.js</filename>
+		<filename>js/s5_effects.js</filename>
+		<filename>js/lytebox.js</filename>
+		<filename>js/s5_no_moo_menu.js</filename>
+		<filename>js/tooltips.js</filename>
+		<filename>js/s5_fading_no_moo_menu.js</filename>
+		<filename>js/s5_clr_fix.js</filename>
+	</files>
+	<images>
+		<filename>images/arrow.png</filename>
+		<filename>images/con_address.png</filename>
+		<filename>images/con_fax.png</filename>			
+		<filename>images/con_info.png</filename>
+		<filename>images/con_tel.png</filename>
+		<filename>images/pdf_button.png</filename>
+		<filename>images/printButton.png</filename>	
+		<filename>images/emailButton.png</filename>
+		<filename>images/indent1.png</filename>		
+		<filename>images/indent2.png</filename>
+		<filename>images/indent3.png</filename>
+		<filename>images/indent4.png</filename>
+		<filename>images/mainmenu_arrow.gif</filename>	
+		<filename>images/s5_bullet_small.png</filename>
+		<filename>images/s5_commportal_bmsep.png</filename>
+		<filename>images/s5_commportal_breadarrow.gif</filename>
+		<filename>images/s5_commportal_inputback.jpg</filename>
+		<filename>images/s5_commportal_leftb.png</filename>
+		<filename>images/s5_commportal_leftbm.png</filename>
+		<filename>images/s5_commportal_leftbottom.png</filename>
+		<filename>images/s5_commportal_leftcenter.png</filename>
+		<filename>images/s5_commportal_leftmaint.png</filename>	
+		<filename>images/s5_commportal_leftmenutab.png</filename>
+		<filename>images/s5_commportal_leftmod.png</filename>
+		<filename>images/s5_commportal_lefttop.png</filename>	
+		<filename>images/s5_commportal_lleftbm.png</filename>
+		<filename>images/s5_commportal_login.jpg</filename>
+		<filename>images/s5_commportal_logo.png</filename>
+		<filename>images/s5_commportal_menuact.jpg</filename>
+		<filename>images/s5_commportal_menubot.png</filename>
+		<filename>images/s5_commportal_menumiddle.png</filename>
+		<filename>images/s5_commportal_menutop.png</filename>
+		<filename>images/s5_commportal_middleb.png</filename>
+		<filename>images/s5_commportal_middlebm.png</filename>
+		<filename>images/s5_commportal_middlebottom.png</filename>
+		<filename>images/s5_commportal_middlemod.png</filename>
+		<filename>images/s5_commportal_middletop.png</filename>
+		<filename>images/s5_commportal_midgrad.png</filename>	
+		<filename>images/s5_commportal_readmore.jpg</filename>
+		<filename>images/s5_commportal_rightb.png</filename>
+		<filename>images/s5_commportal_rightbm.png</filename>
+		<filename>images/s5_commportal_rightbottom.png</filename>
+		<filename>images/s5_commportal_rightmaint.png</filename>	
+		<filename>images/s5_commportal_rightmenutab.png</filename>	
+		<filename>images/s5_commportal_rightmod.png</filename>	
+		<filename>images/s5_commportal_righttop.png</filename>
+		<filename>images/s5_commportal_rrightbm.png</filename>
+		<filename>images/s5_commportal_s5back.png</filename>
+		<filename>images/s5_commportal_s5bottom.png</filename>
+		<filename>images/s5_commportal_s5button.jpg</filename>
+		<filename>images/s5_commportal_s5left-37.png</filename>	
+		<filename>images/s5_commportal_s5right-39.png</filename>	
+		<filename>images/s5_commportal_search.jpg</filename>
+		<filename>images/s5_commportal_subarrow.png</filename>
+		<filename>images/s5_commportal_tickerbar.png</filename>
+		<filename>images/s5_commportal_topback.png</filename>
+		<filename>images/s5_left_quote.png</filename>
+		<filename>images/s5_li_number1.jpg</filename>	
+		<filename>images/s5_li_number2.jpg</filename>		
+		<filename>images/s5_li_number3.jpg</filename>
+		<filename>images/s5_li_number4.jpg</filename>
+		<filename>images/s5_li_number5.jpg</filename>
+		<filename>images/s5_li_number6.jpg</filename>
+		<filename>images/s5_li_number7.jpg</filename>
+		<filename>images/s5_li_number8.jpg</filename>	
+		<filename>images/s5_li_number9.jpg</filename>	
+		<filename>images/s5_right_quote.png</filename>
+		<filename>images/s5_ul_arrow.png</filename>
+		<filename>images/s5_ul_bullet.jpg</filename>
+		<filename>images/s5_ul_star.png</filename>
+		<filename>images/shape5_logo.png</filename>	
+		<filename>images/litebox/close_grey.png</filename>
+		<filename>images/litebox/loading.gif</filename>
+		<filename>images/litebox/next_grey.gif</filename>
+		<filename>images/litebox/pause_grey.png</filename>
+		<filename>images/litebox/play_grey.png</filename>
+		<filename>images/litebox/prev_grey.gif</filename>	
+		<filename>images/litebox/blank.gif</filename>	
+		<filename>template_thumbnail.png</filename>	
+	</images>
+	<css>
+		<filename>css/template_css.css</filename>
+		<filename>css/suckerfish.css</filename>
+		<filename>css/lytebox.css</filename>
+	</css>
+	<positions>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>advert1</position>
+		<position>advert2</position>
+		<position>advert3</position>
+		<position>advert4</position>
+		<position>advert5</position>
+		<position>advert6</position>
+		<position>banner</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>toolbar</position>
+		<position>debug</position>
+		<position>cpanel</position>
+		<position>ticker1</position>
+		<position>ticker2</position>
+		<position>breadcrumb</position>
+		<position>s5_fs_1</position>
+		<position>s5_fs_2</position>
+		<position>s5_fs_3</position>
+		<position>s5_fs_4</position>
+		<position>s5_fs_5</position>
+		<position>s5_fs_6</position>
+		<position>s5_fs_7</position>
+		<position>s5_fs_8</position>
+		<position>s5_fs_9</position>
+		<position>s5_fs_10</position>
+		<position>bottom</position>
+	</positions>
+<params>
+		<param name="spacer1" type="spacer" default="Make sure to hover your mouse over each title in this column for a full description of what each field does." />
+		<param name="xml_menuname" type="text" default="mainmenu" label="Menu Name" description="What menu would you like to use for the default default menu?" />
+		<param name="xml_s5_loggedin" type="text" default="no" label="Logged in Mode" description="Enter logged in mode.  This will show only a select few module positions when a user is not logged in, restricting his site acces." />
+		<param name="xml_s5_body_width" type="text" default="975" label="Body Width" description="What width would you like for the website?" />
+		<param name="xml_s5_left_width" type="text" default="250" label="Left Column Width" description="What width in pixels would you like the left column to be?" />
+		<param name="xml_s5_right_width" type="text" default="237" label="Right Column Width" description="What width in pixels would you like the right column to be?" />	
+		<param name="xml_s5_menu" type="list" default="1" label="Menu Type" description="Enter in 1 for No-MooMenu, 2 for Suckerfish, 3 for Fading No-Moo, or 4 for Nothing">
+			<option value="1">S5 Drop In No-MooMenu</option>
+			<option value="2">Suckerfish</option>
+			<option value="3">S5 Fading No-MooMenu</option>
+			<option value="4">No Menu</option>
+		</param>
+
+		<param name="xml_s5_boxdrop" type="text" default="Close" label="S5 Box Drop Down" description="What text would you like for the button that closes the s5 box drop down" />
+		<param name="xml_s5_boxone" type="text" default="400" label="S5 Box 1 Width" description="What width in pixels would you like the first s5 box popup box to be? (height will auto adjust to content)" />
+		<param name="xml_s5_boxonehide" type="text" default="yes" label="S5 Box 1 Hide?" description="Do you want to hide this s5 box when a user is logged in?" />
+		<param name="xml_s5_boxonebut" type="text" default="Register" label="S5 Box 1 button text" description="Enter what text you would like for the close button." />
+		<param name="xml_s5_boxonetext" type="text" default="Close" label="S5 Box 1 popup text" description="Enter what text you would like for the close button located in the S5 Box window." />
+		<param name="xml_s5_boxtwo" type="text" default="400" label="S5 Box 2 Width" description="What width in pixels would you like the second s5 box popup box to be? (height will auto adjust to content)" />
+		<param name="xml_s5_boxtwobut" type="text" default="Login" label="Logged out text" description="Enter what text you would like for the close button when logged out and logged in." />
+		<param name="xml_s5_boxtwobutin" type="text" default="Logout" label="Logged in text" description="Enter the name that you'd like for the S5 Box tab." />
+		<param name="xml_s5_boxtwotext" type="text" default="Close" label="S5 Box 2 popup text" description="Enter what text you would like for the close button located in the s5 box window." />
+
+		
+		<param name="xml_s5_repeatback" type="text" default="images/bodyback.jpg" label="Background Repeat" description="Enter the URL to a background image that will repeat throughout the body of the template" />
+		<param name="xml_s5_colorback" type="text" default="#FFFFFF" label="Color Background" description="Enter the color in HEX of the background you would like for the template body" />
+		<param name="xml_s5_tooltips" type="text" default="yes" label="Tooltips" description="Enable tooltips" />
+		<param name="xml_s5_lytebox" type="list" default="yes" label="Enable Lytebox?" description="Enable the lytebox feature for your images  NOTE: it is highly recommened to disable if you are not planning to use">
+			<option value="yes">yes</option>
+			<option value="no">no</option>
+		</param>	
+		<param name="xml_s5_clr_fix" type="list" default="disabled" label="S5 Clr Fix" description="S5 - Clear Fix Script - This template was written with 100% tableless css. Unfortunately there are some components that are poorly written and conflict with tableless designs; this is an issue with the component and not the template. To correct some of these issues we have written this simple script. If you are seeing a large gap above some of your components you can try enabling this script (choose enabled or disabled - only use this script if absolutly necessary). In most cases this will fix the issue but not all. If you are still experiencing the problem this is most likely a problem with the component.">
+			<option value="disabled">disabled</option>
+			<option value="enabled">enabled</option>
+		</param>
+	
+		
+		</params>
+</install>

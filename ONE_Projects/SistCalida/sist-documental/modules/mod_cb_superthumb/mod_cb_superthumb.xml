@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module">
+	<name>CB Superthumb</name>
+	<author>TemplatePlazza Team</author>
+	<creationDate>01/01/2008</creationDate>
+	<copyright>TemplatePlazza.com</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>sikumbang@gmail.com</authorEmail>
+	<authorUrl>http://www.templateplazza.com</authorUrl>
+	<version>1.0.8</version>
+	<description><![CDATA[  <p /><img src="../modules/cb_superthumb/logo.gif" align="left" hspace="25" style="padding-bottom:25px" />
+	<br/>This module will display CB User Thumbnails with various option (to be configured in the back-end) :<br/>
+	<ol>
+	<li>Latest Profile Book - Requires <a href="http://extensions.joomla.org/component/option,com_mtree/task,viewlink/link_id,1150/Itemid,35/"><strong>CB_profile Book </strong></a>installed</li>
+	<li>Dispay Random User</li>
+		<li>Latest Registered Users/li>
+	<li>Latest User Login</li>
+	<li>Most Popular User - Based on user profile hits</li>
+	<li>Latest Updated Profile</li>
+	<li>Dispay Online User</li>
+	<li>Connection - Will display user thumbnails that has connection with you + Request/Revoke/Remove Connection link (depends on available connection) when you visit any user profile page.</li>
+	<li>Latest Upload RS Gallery 2 - Requires <a href="http://www.rsgallery2.net/"><strong> RSGallery2 </strong></a>installed</li>
+	<li>Latest Upload Pony Gallery - Requires <a href="http://www.joomlaos.de/option,com_remository/Itemid,41/func,select/id,298.html"><strong>Pony Gallery</strong></a></li>
+	</ol> ]]>
+	This module will attract your user attention to click other user profile and encourage them to be more active in the website</description>
+	<files>
+		<filename module="mod_cb_superthumb">mod_cb_superthumb.php</filename>
+		<filename module="mod_cb_superthumb">cb_superthumb/style.css</filename>
+		<filename module="mod_cb_superthumb">cb_superthumb/add.png</filename>
+		<filename module="mod_cb_superthumb">cb_superthumb/delete.png</filename>
+		<filename module="mod_cb_superthumb">cb_superthumb/bgstrip.png</filename>
+		<filename module="mod_cb_superthumb">cb_superthumb/logo.gif</filename>
+	</files>
+	<params>
+		<param name="@space" type="" default="General Settings" label="" description=""></param>
+        <param name="count" type="text" default="10" label="Number of Member displayed" description="Choose how many members to display"></param>
+        <param name="width_thumbcb" type="text" default="60" label="Thumbnail Width" description="Thumbnail Width"></param>
+		<param name="height_thumbcb" type="text" default="80" label="Thumbnail Height" description="Thumbnail Height"></param>
+        <param name="iditemuse" type="radio" default="0" label="Use a specific ITEMID?" description="Please choose if you want to use a specific ITEMID for the Links">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+         <param name="iditem" type="text" default="68" label="Specific ItemID" description="If you select to use a specific itemid please insert your want there"></param>
+        <param name="modulename" type="list" default="2" label="Module Function" description="Select module to be displayed">
+			<option value="1">Latest Profile Book</option>
+			<option value="2">Display Random User</option>
+			<option value="10">Latest User's</option>
+			<option value="4">Latest Login</option>
+			<option value="5">Most Popular</option>
+			<option value="6">Last Updated Profile</option>
+			<option value="9">Display Online User</option>
+			<option value="8">Connection</option>
+			<option value="7">Latest Upload RS Gallery 2</option>
+			<option value="3">Latest Upload Pony Gallery</option>
+		</param>
+	 <param name="shownotavatar" type="radio" default="0" label="See users without picture?" description="Select if you want to show up users with no photo or just users with photo!">
+			<option value="1">Yes (Show users without picture)</option>
+			<option value="0">No (Dont show users without picture)</option>
+		</param>
+        	<param name="shownamedetails" type="radio" default="1" label="Show name/username?" description="Select if you want to show the username/name ?">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+        	<param name="viewname" type="radio" default="0" label="Username or Real Name" description="Please choose if you want to choose the username or the Real Name of the user after the thumb...">
+			<option value="1">Real Name</option>
+			<option value="0">Username</option>
+		</param>
+<param name="showimagenot" type="radio" default="0" label="Users without Avatar Approved" description="Select if you want to show or not users with CB avatar not approved or pending approval">
+			<option value="1">Show Users</option>
+			<option value="0">Dont Show users</option>
+		</param>
+		<param name="viewgroup" type="radio" default="0" label="View user group?" description="Please choose if you want to show up the user group...">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+        <param name="imagelinked" type="radio" default="0" label="Link User Avatar?" description="Select if you want the avatar of the user to be linked to him profile">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+           <param name="userlinked" type="radio" default="0" label="Link the username/name?" description="Select if you want the username or the real name of the user to be linked to him profile">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		
+		
+
+
+        <param name="@space" type="" default="ToolBar Settings" label="" description=""></param>
+        <param name="toolbar" type="radio" default="0" label="Use Toolbar?" description="Select if you want to use the toolbar. Whats that? A set of icons to guide your users Adding as Friend, Sending Pm's...">
+			<option value="1">Yes </option>
+			<option value="0">No</option>
+		</param>
+        <param name="width" type="text" default="15" label="Width" description="Please set the width of the toolbar icons!"></param>
+        <param name="height" type="text" default="15" label="Height" description="Please set the height of the toolbar icons! "></param>
+         <param name="sendpm" type="radio" default="0" label="Show the SendPM icon?" description="Select if you want to use the send pm link. Whats that? A link that will guide registered only users to easly send pm's to the user they are looking in">
+			<option value="1">Yes </option>
+			<option value="0">No</option>
+		</param>
+		<param name="pmssystem" type="list" default="jim" label="PMS System" description="Select the PMS System you want to use">
+			<option value="mesjim">JIM</option>
+			<option value="uddeim">UDDEIM</option>
+			<option value="pms">com_pms</option>
+		</param>
+         <param name="sendmail" type="radio" default="0" label="Show the SendMail icon?" description="Select if you want to use the send mail link. Whats that? A link that will guide registered only users to easly send mail's to the user they are looking in using your site system">
+			<option value="1">Yes </option>
+			<option value="0">No</option>
+		</param>
+		<param name="conects" type="radio" default="0" label="Show the Connections icon?" description="Select if you want to use the connections link. Whats that? A link that will guide registered only users to easly add or delete the user they are looking in as friend">
+			<option value="1">Yes </option>
+			<option value="0">No</option>
+		</param>
+         	<param name="profilelink" type="radio" default="0" label="Show the SeeProfile icon?" description="Select if you want to use the see profile link. Whats that? A link that will guide viewers to see the user profile">
+			<option value="1">Yes </option>
+			<option value="0">No</option>
+		</param>
+			<param name="grouplink" type="radio" default="0" label="Show the Group icon?" description="Select if you want to use the group link. Whats that? A link that will guide visitors to see the user group...">
+			<option value="1">Yes </option>
+			<option value="0">No</option>
+		</param>
+		
+			<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+	</params>
+</mosinstall>

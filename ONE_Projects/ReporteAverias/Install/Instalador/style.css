@@ -1,0 +1,19 @@
+body{
+		text-align: left;
+		font-family: tahoma,verdana, geneva, lucida, arial, helvetica, sans-serif;							 	
+		font-size: 11.5px;
+		color: #646464; 		
+		background-color:#fff;
+		line-height:20px;		
+		margin-top:0;
+		padding:0;
+		border:0;
+		background-image: url(file:img/logo.jpg);
+
+}
+.wizard-image{background:transparent url(img/logo.jpg) 10px center no-repeat;padding-left:430px;}
+.siguiente{background:transparent url(img/siguiente.png) 0px 0px no-repeat !important;}
+.Bien{background:transparent url(img/Bien.png) 0px 0px no-repeat !important;} 
+.atras{background:transparent url(img/atras.png) 0px 0px no-repeat !important;}
+.ok{background:transparent url(img/ok.png) 0px 0px no-repeat !important;}
+

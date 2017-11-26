@@ -1,0 +1,82 @@
+ root {display: block;}
+.info{background:transparent url(../img/icons/16x16/actions/go_home.png) 0px 0px no-repeat !important;}
+.entrar{background:transparent url(../img/icons/16x16/actions/edit_user.png) 0px 0px no-repeat !important;}
+.cancel{background:transparent url(../img/icons/16x16/actions/application_exit.png) 0px 0px no-repeat !important;}
+.datos{margin-top: 38px;padding-top: 38px;position: relative;}
+
+.guardar{background:transparent url(../img/icons/16x16/actions/document_save_all.png) 0px 0px no-repeat !important;}
+.exportar{background:transparent url(../img/icons/16x16/actions/kgpg_export_kgpg.png) 0px 0px no-repeat !important;}
+.crear{background:transparent url(../img/icons/16x16/actions/documentinfo_koffice.png) 0px 0px no-repeat !important;}
+.imprimir{background:transparent url(../img/icons/16x16/actions/document_print.png) 0px 0px no-repeat !important;}
+.enviar{background:transparent url(../img/icons/16x16/actions/mail_send1.png) 0px 0px no-repeat !important;}
+.cerrar{background:transparent url(../img/icons/16x16/actions/dialog_close.png) 0px 0px no-repeat !important;}
+.copiar{background:transparent url(../img/icons/16x16/actions/edit_copy.png) 0px 0px no-repeat !important;}
+.cortar{background:transparent url(../img/icons/16x16/actions/edit_cut.png) 0px 0px no-repeat !important;}
+.CopiarF{background:transparent url(../img/icons/16x16/actions/editpaste.png) 0px 0px no-repeat !important;}
+.logo{background:transparent url(../img/imagenes/ico32.png) 0px 0px no-repeat !important;}
+
+.informa{background:transparent url(../img/icons/16x16/apps/info.png) 0px 0px no-repeat !important;}
+.admin{background:transparent url(../img/icons/16x16/actions/kgpg_identity_kgpg.png) 0px 0px no-repeat !important;}
+.user{background:transparent url(../img/icons/16x16/actions/user.png) 0px 0px no-repeat !important;}
+.adduser{background:transparent url(../img/icons/16x16/actions/user_group_new.png) 0px 0px no-repeat !important;}
+.addnode{background:transparent url(../img/icons/16x16/actions/view_calendar_list.png) 0px 0px no-repeat !important;}
+.PPU{background:transparent url(../img/icons/16x16/apps/office_address_book.png) 0px 0px no-repeat !important;}
+.PPA{background:transparent url(../img/icons/16x16/apps/preferences_contact_list.png) 0px 0px no-repeat !important;}
+
+
+.deluser{background:transparent url(../img/icons/16x16/actions/view_media_artist.png) 0px 0px no-repeat !important;}
+.adduser{background:transparent url(../img/icons/16x16/actions/user_group_new.png) 0px 0px no-repeat !important;}
+.moduser{background:transparent url(../img/icons/16x16/actions/edit_user.png) 0px 0px no-repeat !important;}
+
+.gestrole{background:transparent url(../img/icons/32x32/apps/preferences_desktop_user.png) 0px 0px no-repeat !important;}
+.addrole{background:transparent url(../img/icons/16x16/actions/archive_insert_directory.png) 0px 0px no-repeat !important;}
+.modrole{background:transparent url(../img/icons/16x16/actions/archive_extract.png) 0px 0px no-repeat !important;}
+.delrole{background:transparent url(../img/icons/16x16/actions/archive_remove.png) 0px 0px no-repeat !important;}
+
+
+.delreg{background:transparent url(../img/icons/16x16/actions/fileview_close_right.png) 0px 0px no-repeat !important;}
+.addreg{background:transparent url(../img/icons/16x16/actions/fileview_split.png) 0px 0px no-repeat !important;}
+.modreg{background:transparent url(../img/icons/16x16/actions/fileview_column.png) 0px 0px no-repeat !important;}
+
+.gestpro{background:transparent url(../img/icons/32x32/apps/graphics_viewer_document.png) 0px 0px no-repeat !important;}
+.addpro{background:transparent url(../img/icons/16x16/actions/media_playlist_refresh.png) 0px 0px no-repeat !important;}
+.modpro{background:transparent url(../img/icons/16x16/actions/media_playlist.png) 0px 0px no-repeat !important;}
+.delpro{background:transparent url(../img/icons/16x16/actions/media_playlist_clear.png) 0px 0px no-repeat !important;}
+
+
+.template{background:transparent url(../img/icons/16x16/actions/media_playlist_refresh.png) 0px 0px no-repeat !important;}
+.a{background:transparent url(../img/icons/16x16/actions/media_playlist_refresh.png) 0px 0px no-repeat !important;}
+.o{background:transparent url(../img/icons/16x16/actions/media_playlist.png) 0px 0px no-repeat !important;}
+
+/*.root{background:transparent url(../img/icons/16x16/actions/today.png) 0px 0px no-repeat !important;}*/
+.root{background:transparent url(../img/extras/HP-MSN-Dock-512.png) 0px 0px no-repeat !important;}
+.mes{background:transparent url(../img/icons/16x16/actions/view_calendar_month.png) 0px 0px no-repeat !important;}
+.anno{background:transparent url(../img/icons/16x16/actions/view_calendar_list.png) 0px 0px no-repeat !important;}
+.dept{background:transparent url(../img/icons/16x16/filesystems/folder_green.png) 0px 0px no-repeat !important;}
+.reg{background:transparent url(../img/icons/16x16/mimetypes/vcalendar.png) 0px 0px no-repeat !important;}
+
+.deptu{background:transparent url(../img/icons/16x16/filesystems/folder_blue.png) 0px 0px no-repeat !important;}
+.oneidep{background:transparent url(../img/icons/16x16/filesystems/folder_home.png) 0px 0px no-repeat !important;}
+.regu{background:transparent url(../img/icons/16x16/mimetypes/wordprocessing.png) 0px 0px no-repeat !important;}
+
+
+.logo{background:transparent url(../img/imagenes/logo.png) 0px 0px no-repeat !important;}
+.onei{background:transparent url(../img/imagenes/logoONEI.png) 0px 0px no-repeat !important; height:52;width:273}
+.image{background:transparent url(../img/imagenes/logoV.png) 0px 0px no-repeat !important;}
+.wizard-image{background:transparent url(../img/imagenes/logoV.png) 10px center no-repeat;padding-left:80px;}
+.complete .x-tree-node-anchor span {text-decoration: line-through;color: #777;}
+
+
+.regresar{background:transparent url(../img/icons/16x16/actions/document_revert.png) 0px 0px no-repeat !important;}
+.siguiente{background:transparent url(../img/icons/16x16/actions/1rightarrow.png) 0px 0px no-repeat !important;}
+.atras{background:transparent url(../img/icons/16x16/actions/1leftarrow.png) 0px 0px no-repeat !important;}
+.finalzar{background:transparent url(../img/icons/16x16/actions/go_jump_today.png) 0px 0px no-repeat !important;}
+ 
+.sola{float:left;clear:left}
+#centro{border:0px solid #f2f2f2;float: left;position: relative;margin: 2px;zoom:1;}
+
+
+
+
+
+/*.login{padding-left:430px;}*/

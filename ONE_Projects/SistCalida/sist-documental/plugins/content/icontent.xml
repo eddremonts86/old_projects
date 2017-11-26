@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="plugin" group="content">
+         <name>iCoNtent 1.5</name>
+          <creationDate>July 2008</creationDate>
+                <version>1.5</version>
+                <author>DART Creations</author>
+                <copyright>Copyright 2008 - DART Creations / WheeQo.web.id</copyright>
+                <license>GNU GPL</license>
+                <authorEmail>spam-me@dart-creations.com</authorEmail>
+                <authorUrl>http://www.dart-creations.com</authorUrl>
+                  <description>
+                  <![CDATA[
+				  <img src="../plugins/content/icontent/logo.png" alt="Logo icontent" />
+				  <p><strong>iCoNtent 1.5</strong> is a rewrite of the iCoNtent free Joomla! Plugin that will produce a <strong>Stylish Icon</strong> from any text in your Joomla! articles.
+All you have to do is just insert the iCoNtent string into your Joomla! text then the text will be shown in a nice CSS styling in your article. if necessary you can change the icons in the icon folders to reflect your needs, or change the styles associated with each icon in the styles folder.
+</p>
+
+
+<b>Usage Instructions  </b><br/>
+<p>To apply icontent styling to your text use the following strings (available string) :</p>
+<div style="border:1px solid #CCCCCC; background:#FFFFFF; padding:10px; margin-bottom:10px;">
+<b>{heart}</b> this is icontent Heart <b>{/heart}</b><br />
+<span style="color:#666666; font-style:italic; margin-top:5px;">This string as default will produce a css style like this :</span>
+<p><span><img src="../plugins/content/icontent/icon/love.gif" height="40" width="40" align="middle"> this is icontent Heart </span></p>
+</div>
+<div style="border:1px solid #CCCCCC; background:#FFFFFF; padding:10px; margin-bottom:10px;">
+<b>{download}</b> this is icontent Download <b>{/download}</b><br />
+<span style="color:#666666; font-style:italic; margin-top:5px;">This string as default will produce a css style like this :</span>
+<p><span><img src="../plugins/content/icontent/icon/download.gif" height="40" width="40" align="middle"> this is icontent Download </span></p>
+</div>
+<div style="border:1px solid #CCCCCC; background:#FFFFFF; padding:10px; margin-bottom:10px;">
+<b>{question}</b> this is icontent Question <b>{/question}</b><br />
+<span style="color:#666666; font-style:italic; margin-top:5px;">This string as default will produce a css style like this :</span>
+<p><span><img src="../plugins/content/icontent/icon/quest.gif" height="40" width="40" align="middle"> this is icontent Question </span></p>
+</div>
+<div style="border:1px solid #CCCCCC; background:#FFFFFF; padding:10px; margin-bottom:10px;">
+<b>{alert}</b> this is icontent Alert <b>{/alert}</b><br />
+<span style="color:#666666; font-style:italic; margin-top:5px;">This string as default will produce a css style like this :</span>
+<p><span><img src="../plugins/content/icontent/icon/alert.gif" height="40" width="40" align="middle"> this is icontent Alert </span></p>
+</div>
+<div style="border:1px solid #CCCCCC; background:#FFFFFF; padding:10px; margin-bottom:10px;">
+<b>{cal}</b> this is icontent Cal <b>{/cal}</b><br />
+<span style="color:#666666; font-style:italic; margin-top:5px;">This string as default will produce a css style like this :</span>
+<p><span><img src="../plugins/content/icontent/icon/cal.gif" height="36" width="37" align="middle"> this is icontent Cal </span></p>
+</div>
+<div style="border:1px solid #CCCCCC; background:#FFFFFF; padding:10px; margin-bottom:10px;">
+<b>{rssfeed}</b> this is icontent RSS Feed <b>{/rssfeed}</b><br />
+<span style="color:#666666; font-style:italic; margin-top:5px;">This string as default will produce a css style like this :</span>
+<p><span><img src="../plugins/content/icontent/icon/rss.gif" height="36" width="37" align="middle"> this is icontent RSS Feed </span></p>
+</div>
+<div style="border:1px solid #CCCCCC; background:#FFFFFF; padding:10px; margin-bottom:10px;">
+<b>{doc}</b> this is icontent Doc <b>{/doc}</b><br />
+<span style="color:#666666; font-style:italic; margin-top:5px;">This string as default will produce a css style like this :</span>
+<p><span><img src="../plugins/content/icontent/icon/doc.gif" height="40" width="40" align="middle"> this is icontent Doc </span></p>
+</div>
+<div style="border:1px solid #CCCCCC; background:#FFFFFF; padding:10px; margin-bottom:10px;">
+<b>{search}</b> this is icontent Search <b>{/search}</b><br />
+<span style="color:#666666; font-style:italic; margin-top:5px;">This string as default will produce a css style like this :</span>
+<p><span><img src="../plugins/content/icontent/icon/search.gif" height="40" width="40" align="middle"> this is icontent Search </span></p>
+</div>
+<div style="border:1px solid #CCCCCC; background:#FFFFFF; padding:10px; margin-bottom:10px;">
+<b>{info}</b> this is icontent Info <b>{/info}</b><br />
+<span style="color:#666666; font-style:italic; margin-top:5px;">This string as default will produce a css style like this :</span>
+<p><span><img src="../plugins/content/icontent/icon/info.gif" height="40" width="40" align="middle"> this is icontent Info </span></p>
+</div>
+<div style="border:1px solid #CCCCCC; background:#FFFFFF; padding:10px; margin-bottom:10px;">
+<b>{star}</b> this is icontent Star <b>{/star}</b><br />
+<span style="color:#666666; font-style:italic; margin-top:5px;">This string as default will produce a css style like this :</span>
+<p><span><img src="../plugins/content/icontent/icon/star.gif" height="40" width="40" align="middle"> this is icontent Star </span></p>
+</div>
+<div style="border:1px solid #CCCCCC; background:#FFFFFF; padding:10px; margin-bottom:10px;">
+<b>{home}</b> this is icontent Home <b>{/home}</b><br />
+<span style="color:#666666; font-style:italic; margin-top:5px;">This string as default will produce a css style like this :</span>
+<p><span><img src="../plugins/content/icontent/icon/home.gif" height="40" width="40" align="middle"> this is icontent Home </span></p>
+</div>
+<div style="border:1px solid #CCCCCC; background:#FFFFFF; padding:10px; margin-bottom:10px;">
+<b>{ref}</b> this is icontent Ref <b>{/ref}</b><br />
+<span style="color:#666666; font-style:italic; margin-top:5px;">This string as default will produce a css style like this :</span>
+<p><span><img src="../plugins/content/icontent/icon/ref.gif" height="40" width="40" align="middle"> this is icontent Ref </span></p>
+</div>
+<div style="border:1px solid #CCCCCC; background:#FFFFFF; padding:10px; margin-bottom:10px;">
+<b>{next}</b> this is icontent Next <b>{/next}</b><br />
+<span style="color:#666666; font-style:italic; margin-top:5px;">This string as default will produce a css style like this :</span>
+<p><span><img src="../plugins/content/icontent/icon/next.gif" height="40" width="40" align="middle"> this is icontent Next </span></p>
+</div>
+<div style="border:1px solid #CCCCCC; background:#FFFFFF; padding:10px; margin-bottom:10px;">
+<b>{note}</b> this is icontent Note <b>{/note}</b><br />
+<span style="color:#666666; font-style:italic; margin-top:5px;">This string as default will produce a css style like this :</span>
+<p><span><img src="../plugins/content/icontent/icon/note.gif" height="40" width="40" align="middle"> this is icontent Note </span></p>
+</div>
+<div style="border:1px solid #CCCCCC; background:#FFFFFF; padding:10px; margin-bottom:10px;">
+<b>{tips}</b> this is icontent Tips <b>{/tips}</b><br />
+<span style="color:#666666; font-style:italic; margin-top:5px;">This string as default will produce a css style like this :</span>
+<p><span><img src="../plugins/content/icontent/icon/tips.gif" height="37" width="37" align="middle"> this is icontent Tips </span></p>
+</div>
+<div style="clear: both"></div>
+                  ]]>
+                  </description>
+		
+         <params>
+		 
+ 
+		
+        </params>
+		
+		<files>		  
+		<filename plugin="icontent">icontent.php</filename>
+		<filename plugin="icontent">icontent/icon/love.gif</filename>
+		<filename plugin="icontent">icontent/icon/download.gif</filename>
+		<filename plugin="icontent">icontent/icon/quest.gif</filename>
+		<filename plugin="icontent">icontent/icon/alert.gif</filename>
+		<filename plugin="icontent">icontent/icon/cal.gif</filename>
+		<filename plugin="icontent">icontent/icon/rss.gif</filename>
+		<filename plugin="icontent">icontent/icon/doc.gif</filename>
+		<filename plugin="icontent">icontent/icon/search.gif</filename>
+		<filename plugin="icontent">icontent/icon/info.gif</filename>	
+		<filename plugin="icontent">icontent/icon/star.gif</filename>	
+		<filename plugin="icontent">icontent/icon/home.gif</filename>
+		<filename plugin="icontent">icontent/icon/ref.gif</filename>
+		<filename plugin="icontent">icontent/icon/next.gif</filename>	
+		<filename plugin="icontent">icontent/icon/note.gif</filename>
+		<filename plugin="icontent">icontent/icon/tips.gif</filename>		
+		<filename plugin="icontent">icontent/icon/line.png</filename>
+		<filename plugin="icontent">icontent/icon/index.html</filename>
+		<filename plugin="icontent">icontent/logo.png</filename>	
+		<filename plugin="icontent">icontent/index.html</filename>
+		</files>
+</install>

@@ -1,0 +1,86 @@
+/*///////////////////
+///// SLIDES JS /////
+///////////////////*/
+
+
+/* GENERALES*/
+
+body {
+	font:12px Arial, Helvetica, sans-serif;
+	color:#818181;
+}
+
+a	{
+	outline:none;
+	text-decoration:none;
+}
+
+a:link,
+a:visited	{color:#006699;}
+a:hover		{color:#00CCFF;}
+.center		{text-align:center;}
+	
+/* CONTENIDO GLOBAL*/	
+#slides_content {
+	width:900px; /* ANCHO DEL CONTENEDOR*/
+	overflow:hidden;
+	margin:auto;
+	}
+	
+/* HEADERS */
+#slides_content h2 {
+	font:24px Arial;
+	letter-spacing:-1px;
+	font-weight:bold;
+	margin:5px; 
+	color:#FF6600;
+	}
+	
+/* SLIDE */	
+#slides_content .slide {
+	float:left; 
+	width:900px;  /* ANCHO DE CADA SLIDE */
+	height:300px; /* ALTURA DE CADA SLIDE */
+	padding:10px;
+	border-top:5px solid #7596B7;
+	 
+	}
+
+/* LISTA DE ITEMS */
+.buttons{
+	text-align:left;
+	width:920px; /* ANCHO DEL MENU */
+	clear:both;
+	display:block;
+	list-style:none;
+	white-space: nowrap;
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	}
+
+.buttons li{
+	display: inline;
+	list-style-type: none;
+}
+
+.buttons li a{
+	text-align:center;
+	margin:0px 3px 0px 0px;
+	padding:8px 14px;
+	line-height:31px;
+	}	
+	
+.buttons li a:link,
+.buttons li a:visited{
+	background-color:#B5CADF; color:#000;
+	}	
+
+.buttons li a:hover{
+	color:#FFFF00;
+	background-color:#7596B7;
+	}
+
+.buttons li a#current{
+	background-color:#7596B7;
+	color:#FFF;
+}
