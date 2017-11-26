@@ -1,0 +1,16 @@
+.fondo {
+    padding-top: 0;
+    background-color: #142849;
+    background-image: -webkit-gradient(radial,center center,0,center center,460,from(#165387),to(#142849));
+    background-image: -webkit-radial-gradient(circle,#165387,#142849);
+    background-image: -moz-radial-gradient(circle,#165387,#142849);
+    background-image: -o-radial-gradient(circle,#165387,#142849);
+    background-repeat: no-repeat;
+}
+.cuerpo{
+
+    min-height:100%;
+    min-width: 100%;
+    height: 100%;
+    width: 100%;
+}

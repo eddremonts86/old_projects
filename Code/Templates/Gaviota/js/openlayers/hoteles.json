@@ -1,0 +1,6337 @@
+{"type": "FeatureCollection", "features": [
+    {
+        "type": "Feature",
+        "id": "hoteles.1",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-84.4951546, 21.8194725]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel Gaviota Villa Maria La Gorda",
+            "cmt": "Hotel Gaviota Villa Maria La Gorda",
+            "desc": "Hotel Gaviota Villa Maria La Gorda",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.2",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-83.7239175, 22.5964684]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Los Jazmines",
+            "cmt": "Los Jazmines",
+            "desc": "Los Jazmines",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.3",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-83.7062446, 22.6737878]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Rancho San Vicente",
+            "cmt": "Rancho San Vicente",
+            "desc": "Rancho San Vicente",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.4",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-83.6987925, 22.6115958]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel La Hermita",
+            "cmt": "Hotel La Hermita",
+            "desc": "Hotel La Hermita",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.5",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-83.6948161, 22.415229]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel Vuellabajo",
+            "cmt": "Hotel Vuellabajo",
+            "desc": "Hotel Vuellabajo",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.6",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-83.6859888, 22.4136023]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel Pinar del Rio",
+            "cmt": "Hotel Pinar del Rio",
+            "desc": "Hotel Pinar del Rio",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.7",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-83.524835, 22.8847844]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel Cayo Levisa",
+            "cmt": "Hotel Cayo Levisa",
+            "desc": "Hotel Cayo Levisa",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.8",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-83.0118529, 22.7964571]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Villa Soroa",
+            "cmt": "Villa Soroa",
+            "desc": "Villa Soroa",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.9",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.9835445, 21.6321277]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "El Colony",
+            "cmt": "El Colony",
+            "desc": "El Colony",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.10",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.9438082, 22.8428434]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel La Moka",
+            "cmt": "Hotel La Moka",
+            "desc": "Hotel La Moka",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.11",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.7797579, 21.8471606]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Las Codornices",
+            "cmt": "Las Codornices",
+            "desc": "Las Codornices",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.12",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.4939331, 22.8958282]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Las Yagrumas",
+            "cmt": "Las Yagrumas",
+            "desc": "Las Yagrumas",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.13",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.4927667, 23.0928523]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel El Viejo y el Mar (Alojamiento)",
+            "cmt": "Hotel El Viejo y el Mar (Alojamiento)",
+            "desc": "Hotel El Viejo y el Mar (Alojamiento)",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.14",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.4543036, 23.0895208]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel Palco (Alojamiento)",
+            "cmt": "Hotel Palco (Alojamiento)",
+            "desc": "Hotel Palco (Alojamiento)",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.15",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.4494592, 23.0757611]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Bello Caribe",
+            "cmt": "Bello Caribe",
+            "desc": "Bello Caribe",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.16",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.4446822, 23.1074992]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Comodoro",
+            "cmt": "Comodoro",
+            "desc": "Comodoro",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.17",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.4416955, 23.1092924]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel Melia Habana (Alojamiento)",
+            "cmt": "Hotel Melia Habana (Alojamiento)",
+            "desc": "Hotel Melia Habana (Alojamiento)",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.18",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.4405973, 23.110271]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Neptuno",
+            "cmt": "Neptuno",
+            "desc": "Neptuno",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.19",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.4403071, 23.1104914]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Triton",
+            "cmt": "Triton",
+            "desc": "Triton",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.20",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.4390261, 23.1116331]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Panorama",
+            "cmt": "Panorama",
+            "desc": "Panorama",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.21",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.438467, 23.1086473]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Occidental Miramar",
+            "cmt": "Occidental Miramar",
+            "desc": "Occidental Miramar",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.22",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.4375475, 23.1148683]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Chateaux Miramar",
+            "cmt": "Chateaux Miramar",
+            "desc": "Chateaux Miramar",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.23",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.4358921, 23.1090105]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Montehabana",
+            "cmt": "Montehabana",
+            "desc": "Montehabana",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.24",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.4339776, 23.1181598]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel Copacabana (Alojamiento)",
+            "cmt": "Hotel Copacabana (Alojamiento)",
+            "desc": "Hotel Copacabana (Alojamiento)",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.25",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.4299365, 23.1212214]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Bella Costa",
+            "cmt": "Bella Costa",
+            "desc": "Bella Costa",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.26",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.4267272, 23.1172019]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Mirazul",
+            "cmt": "Mirazul",
+            "desc": "Mirazul",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.27",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.4257766, 23.1219799]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hostal Villamar",
+            "cmt": "Hostal Villamar",
+            "desc": "Hostal Villamar",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.28",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.4194057, 23.0550383]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Building",
+            "cmt": "Building",
+            "desc": "Building",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.29",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.4096199, 23.1090787]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Kohly",
+            "cmt": "Kohly",
+            "desc": "Kohly",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.30",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.407896, 23.1160633]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "El Bosque",
+            "cmt": "El Bosque",
+            "desc": "El Bosque",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.31",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.4049395, 23.1277529]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Casa de Olga y Eugenio",
+            "cmt": "Casa de Olga y Eugenio",
+            "desc": "Casa de Olga y Eugenio",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.32",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.4038448, 23.1396442]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Riviera",
+            "cmt": "Riviera",
+            "desc": "Riviera",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.33",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.4026728, 23.1396353]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Meliá Cohiba",
+            "cmt": "Meliá Cohiba",
+            "desc": "Meliá Cohiba",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.34",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3944223, 23.1428218]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Presidente",
+            "cmt": "Presidente",
+            "desc": "Presidente",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.35",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3842785, 23.1414411]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel Victoria",
+            "cmt": "Hotel Victoria",
+            "desc": "Hotel Victoria",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.36",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.383009, 23.1395001]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Habana Libre",
+            "cmt": "Habana Libre",
+            "desc": "Habana Libre",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.37",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3826066, 23.1423681]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Capri",
+            "cmt": "Capri",
+            "desc": "Capri",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.38",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3824231, 23.1281905]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Bruzón",
+            "cmt": "Bruzón",
+            "desc": "Bruzón",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.39",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3818413, 23.1379908]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Colina",
+            "cmt": "Colina",
+            "desc": "Colina",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.40",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3804096, 23.1431521]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel Nacional de Cuba",
+            "cmt": "Hotel Nacional de Cuba",
+            "desc": "Hotel Nacional de Cuba",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.41",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3800175, 23.1405207]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Saint Johns",
+            "cmt": "Saint Johns",
+            "desc": "Saint Johns",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.42",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3797278, 23.1401656]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Vedado",
+            "cmt": "Vedado",
+            "desc": "Vedado",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.43",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3683392, 23.0980176]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house:Elisa",
+            "cmt": "Guest house:Elisa",
+            "desc": "Guest house:Elisa",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.44",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.366774, 23.0903461]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house:Sra. Estrella Urra",
+            "cmt": "Guest house:Sra. Estrella Urra",
+            "desc": "Guest house:Sra. Estrella Urra",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.45",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.36363, 23.1395838]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Lincoln",
+            "cmt": "Lincoln",
+            "desc": "Lincoln",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.46",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.363512, 23.1420403]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Deauville",
+            "cmt": "Deauville",
+            "desc": "Deauville",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.47",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.359558, 23.1380163]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Telégrafo",
+            "cmt": "Telégrafo",
+            "desc": "Telégrafo",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.48",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3594573, 23.1374248]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Inglaterra",
+            "cmt": "Inglaterra",
+            "desc": "Inglaterra",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.49",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3587387, 23.1386057]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel",
+            "cmt": "Hotel",
+            "desc": "Hotel",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.50",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3586932, 23.1388311]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel Parque Central (Alojamiento)",
+            "cmt": "Hotel Parque Central (Alojamiento)",
+            "desc": "Hotel Parque Central (Alojamiento)",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.51",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3580917, 23.1320243]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house:Casa Nancy",
+            "cmt": "Guest house:Casa Nancy",
+            "desc": "Guest house:Casa Nancy",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.52",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3580804, 23.1337441]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Saratoga",
+            "cmt": "Saratoga",
+            "desc": "Saratoga",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.53",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3580094, 23.141355]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel Park View",
+            "cmt": "Hotel Park View",
+            "desc": "Hotel Park View",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.54",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3579277, 23.1386117]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Plaza",
+            "cmt": "Plaza",
+            "desc": "Plaza",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.55",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3571508, 23.1387699]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Building:Edificio Bacardi",
+            "cmt": "Building:Edificio Bacardi",
+            "desc": "Building:Edificio Bacardi",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.56",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.355921, 23.1353145]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house:Casa Ricci",
+            "cmt": "Guest house:Casa Ricci",
+            "desc": "Guest house:Casa Ricci",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.57",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3556899, 23.1394258]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house",
+            "cmt": "Guest house",
+            "desc": "Guest house",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.58",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3550804, 23.1400647]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house:Compostela 117",
+            "cmt": "Guest house:Compostela 117",
+            "desc": "Guest house:Compostela 117",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.59",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3545711, 23.1433838]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "San Miguel",
+            "cmt": "San Miguel",
+            "desc": "San Miguel",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.60",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3534422, 23.1417675]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Palacio O'Farrill",
+            "cmt": "Palacio O'Farrill",
+            "desc": "Palacio O'Farrill",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.61",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3531462, 23.1386884]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house:Casa Partícular",
+            "cmt": "Guest house:Casa Partícular",
+            "desc": "Guest house:Casa Partícular",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.62",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3526995, 23.1364045]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house:Arrendador Inscripto",
+            "cmt": "Guest house:Arrendador Inscripto",
+            "desc": "Guest house:Arrendador Inscripto",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.63",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3526618, 23.1394279]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Marqués de Prado Ameno",
+            "cmt": "Marqués de Prado Ameno",
+            "desc": "Marqués de Prado Ameno",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.64",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3524503, 23.1390329]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Florida",
+            "cmt": "Florida",
+            "desc": "Florida",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.65",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3524295, 23.1417167]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "del Tejadillo",
+            "cmt": "del Tejadillo",
+            "desc": "del Tejadillo",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.66",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3514451, 23.1352972]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Building:Centro de Diagnóstico de Proyectos",
+            "cmt": "Building:Centro de Diagnóstico de Proyectos",
+            "desc": "Building:Centro de Diagnóstico de Proyectos",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.67",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3511616, 23.1361108]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house:Arrendador Inscripto",
+            "cmt": "Guest house:Arrendador Inscripto",
+            "desc": "Guest house:Arrendador Inscripto",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.68",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3508773, 23.1371523]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel Raquel",
+            "cmt": "Hotel Raquel",
+            "desc": "Hotel Raquel",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.69",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3507225, 23.1353842]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hostel:Plaza Vieja",
+            "cmt": "Hostel:Plaza Vieja",
+            "desc": "Hostel:Plaza Vieja",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.70",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3505696, 23.1394443]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel Ambos Mundos (Alojamiento)",
+            "cmt": "Hotel Ambos Mundos (Alojamiento)",
+            "desc": "Hotel Ambos Mundos (Alojamiento)",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.71",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3500099, 23.1352133]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Beltrán de Santa Cruz",
+            "cmt": "Beltrán de Santa Cruz",
+            "desc": "Beltrán de Santa Cruz",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.72",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3498414, 23.1379709]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Conde de Villanueva",
+            "cmt": "Conde de Villanueva",
+            "desc": "Conde de Villanueva",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.73",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3495244, 23.1370368]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "El Mesón de la Flota",
+            "cmt": "El Mesón de la Flota",
+            "desc": "El Mesón de la Flota",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.74",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3491255, 23.1366038]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel Los Frailes",
+            "cmt": "Hotel Los Frailes",
+            "desc": "Hotel Los Frailes",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.75",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.349043, 23.1386822]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hostal Valencia",
+            "cmt": "Hostal Valencia",
+            "desc": "Hostal Valencia",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.76",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3489482, 23.1376009]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Palacio del Marqués de San Felipe y Santiago de Bejucal(5*)",
+            "cmt": "Palacio del Marqués de San Felipe y Santiago de Bejucal(5*)",
+            "desc": "Palacio del Marqués de San Felipe y Santiago de Bejucal(5*)",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.77",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3487821, 23.140153]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel Santa Isabel",
+            "cmt": "Hotel Santa Isabel",
+            "desc": "Hotel Santa Isabel",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.78",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3486387, 23.1388188]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel El Comendador",
+            "cmt": "Hotel El Comendador",
+            "desc": "Hotel El Comendador",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.79",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3475353, 23.1344338]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Armadores de Santander",
+            "cmt": "Armadores de Santander",
+            "desc": "Armadores de Santander",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.80",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.3064475, 23.1588356]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel Panamericano",
+            "cmt": "Hotel Panamericano",
+            "desc": "Hotel Panamericano",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.81",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.1193326, 22.9712395]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Motel:Motel Rancho Alto",
+            "cmt": "Motel:Motel Rancho Alto",
+            "desc": "Motel:Motel Rancho Alto",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.82",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.0532478, 23.0443679]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel Escales de Jaruco",
+            "cmt": "Hotel Escales de Jaruco",
+            "desc": "Hotel Escales de Jaruco",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.83",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.0192687, 22.8416941]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Motel:Motel",
+            "cmt": "Motel:Motel",
+            "desc": "Motel:Motel",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.84",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.9223555, 22.7857387]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Building:Tienda El Oasis (TRD)",
+            "cmt": "Building:Tienda El Oasis (TRD)",
+            "desc": "Building:Tienda El Oasis (TRD)",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.85",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.9199248, 22.785766]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Building:Sectorial de Salud",
+            "cmt": "Building:Sectorial de Salud",
+            "desc": "Building:Sectorial de Salud",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.86",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.9196969, 22.7857284]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Building:Hogar de Ancianos",
+            "cmt": "Building:Hogar de Ancianos",
+            "desc": "Building:Hogar de Ancianos",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.87",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.9195145, 22.7853668]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Building:Bodega La Central",
+            "cmt": "Building:Bodega La Central",
+            "desc": "Building:Bodega La Central",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.88",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.9189461, 22.7842461]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Building:Joven Club",
+            "cmt": "Building:Joven Club",
+            "desc": "Building:Joven Club",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.89",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.9180086, 22.7849268]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Building:Banco",
+            "cmt": "Building:Banco",
+            "desc": "Building:Banco",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.90",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.9174421, 22.7866611]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Building:Museo",
+            "cmt": "Building:Museo",
+            "desc": "Building:Museo",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.91",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.9173517, 22.7838259]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Building:Tienda Artex",
+            "cmt": "Building:Tienda Artex",
+            "desc": "Building:Tienda Artex",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.92",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.9170336, 22.7851914]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Building:Estacion de Trenes",
+            "cmt": "Building:Estacion de Trenes",
+            "desc": "Building:Estacion de Trenes",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.93",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.9169239, 22.7840938]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Building:El Ultra",
+            "cmt": "Building:El Ultra",
+            "desc": "Building:El Ultra",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.94",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.9168192, 22.7843404]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Building:Banco de Ahorro",
+            "cmt": "Building:Banco de Ahorro",
+            "desc": "Building:Banco de Ahorro",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.95",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.9166479, 22.784815]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Building:Tienda La Colonial",
+            "cmt": "Building:Tienda La Colonial",
+            "desc": "Building:Tienda La Colonial",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.96",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.9163532, 22.7836921]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Building:La Tabaqueria",
+            "cmt": "Building:La Tabaqueria",
+            "desc": "Building:La Tabaqueria",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.97",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.916256, 22.7883767]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Building:Farmacia",
+            "cmt": "Building:Farmacia",
+            "desc": "Building:Farmacia",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.98",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.916056, 22.7837195]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Building:Farmacia",
+            "cmt": "Building:Farmacia",
+            "desc": "Building:Farmacia",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.99",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.9138252, 22.7826649]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Building:Las 3 Gracias",
+            "cmt": "Building:Las 3 Gracias",
+            "desc": "Building:Las 3 Gracias",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.100",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.9131905, 22.7826066]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Building:La Funeraria",
+            "cmt": "Building:La Funeraria",
+            "desc": "Building:La Funeraria",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.101",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.9107766, 22.7812366]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Building:Bodega La 1ra Estrella",
+            "cmt": "Building:Bodega La 1ra Estrella",
+            "desc": "Building:Bodega La 1ra Estrella",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.102",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.9105313, 22.781137]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Building:La Popular",
+            "cmt": "Building:La Popular",
+            "desc": "Building:La Popular",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.103",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.9090942, 22.7845542]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Building:El paradero",
+            "cmt": "Building:El paradero",
+            "desc": "Building:El paradero",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.104",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.818318, 23.1473956]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "SuberClub Breezes",
+            "cmt": "SuberClub Breezes",
+            "desc": "SuberClub Breezes",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.105",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.5798054, 23.0465156]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hostal Azul",
+            "cmt": "Hostal Azul",
+            "desc": "Hostal Azul",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.106",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.5793441, 23.0465106]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hostal Alma",
+            "cmt": "Hostal Alma",
+            "desc": "Hostal Alma",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.107",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.5769623, 23.0473695]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hostel:Casa Paraiso Díaz Duque",
+            "cmt": "Hostel:Casa Paraiso Díaz Duque",
+            "desc": "Hostel:Casa Paraiso Díaz Duque",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.108",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.5658553, 21.6251665]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Villa Marinera",
+            "cmt": "Villa Marinera",
+            "desc": "Villa Marinera",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.109",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.5290452, 21.5993847]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Pelicano",
+            "cmt": "Pelicano",
+            "desc": "Pelicano",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.110",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.5226193, 21.6013344]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Villa Coral",
+            "cmt": "Villa Coral",
+            "desc": "Villa Coral",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.111",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.5107082, 21.5970433]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Isla del Sur",
+            "cmt": "Isla del Sur",
+            "desc": "Isla del Sur",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.112",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.4980506, 21.6057199]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Villa Iguana",
+            "cmt": "Villa Iguana",
+            "desc": "Villa Iguana",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.113",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.4923751, 21.6097268]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Villa Capricho",
+            "cmt": "Villa Capricho",
+            "desc": "Villa Capricho",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.114",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.3181345, 23.1313576]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Oasis",
+            "cmt": "Oasis",
+            "desc": "Oasis",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.115",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.3092768, 23.1311761]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Puntarenas",
+            "cmt": "Puntarenas",
+            "desc": "Puntarenas",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.116",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.3065474, 23.131476]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Playa Caleta",
+            "cmt": "Playa Caleta",
+            "desc": "Playa Caleta",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.117",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.281144, 23.1370436]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Acuazul Varazul",
+            "cmt": "Acuazul Varazul",
+            "desc": "Acuazul Varazul",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.118",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.2766897, 23.1410891]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Club Amigo Tropical",
+            "cmt": "Club Amigo Tropical",
+            "desc": "Club Amigo Tropical",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.119",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.2651541, 23.1474104]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Los Delfinos",
+            "cmt": "Los Delfinos",
+            "desc": "Los Delfinos",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.120",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.2491932, 23.155099]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Cuatros Palmas",
+            "cmt": "Cuatros Palmas",
+            "desc": "Cuatros Palmas",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.121",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.2461204, 23.1540227]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Palma Real",
+            "cmt": "Palma Real",
+            "desc": "Palma Real",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.122",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.2460599, 23.1557068]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Arenas Blancas",
+            "cmt": "Arenas Blancas",
+            "desc": "Arenas Blancas",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.123",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.2421309, 23.1570813]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Barcelo Solymar",
+            "cmt": "Barcelo Solymar",
+            "desc": "Barcelo Solymar",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.124",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.2413413, 23.1598117]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Varadero Internacional",
+            "cmt": "Varadero Internacional",
+            "desc": "Varadero Internacional",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.125",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.2365885, 23.1599062]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Villa Cuba Resort",
+            "cmt": "Villa Cuba Resort",
+            "desc": "Villa Cuba Resort",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.126",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.2332363, 23.1615405]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Sol Club Coral",
+            "cmt": "Sol Club Coral",
+            "desc": "Sol Club Coral",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.127",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.2019926, 23.1764315]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Sol Palmeras",
+            "cmt": "Sol Palmeras",
+            "desc": "Sol Palmeras",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.128",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.1954443, 22.2807394]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house",
+            "cmt": "Guest house",
+            "desc": "Guest house",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.129",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.1855553, 23.1842485]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Brisas del Caribe",
+            "cmt": "Brisas del Caribe",
+            "desc": "Brisas del Caribe",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.130",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.1835709, 23.1829676]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Arenas Doradas",
+            "cmt": "Arenas Doradas",
+            "desc": "Arenas Doradas",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.131",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.1770022, 23.1874503]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Iberostar Tainos",
+            "cmt": "Iberostar Tainos",
+            "desc": "Iberostar Tainos",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.132",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.1724424, 23.1897383]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Blau Varadero",
+            "cmt": "Blau Varadero",
+            "desc": "Blau Varadero",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.133",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.1610751, 23.1963291]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Iberostar Varadero",
+            "cmt": "Iberostar Varadero",
+            "desc": "Iberostar Varadero",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.134",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.1560754, 23.1998595]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Paradisus Varadero",
+            "cmt": "Paradisus Varadero",
+            "desc": "Paradisus Varadero",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.135",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.1451305, 23.1983248]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Sirenis La Salina Varadero Beach Resort",
+            "cmt": "Sirenis La Salina Varadero Beach Resort",
+            "desc": "Sirenis La Salina Varadero Beach Resort",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.136",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.13402, 23.1994176]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Playa Alameda Varadero",
+            "cmt": "Playa Alameda Varadero",
+            "desc": "Playa Alameda Varadero",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.137",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.1000181, 22.3446998]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Villa Guama",
+            "cmt": "Villa Guama",
+            "desc": "Villa Guama",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.138",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.0338201, 22.0660996]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Playa Giron",
+            "cmt": "Playa Giron",
+            "desc": "Playa Giron",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.139",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.4518351, 22.1217423]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Jagua",
+            "cmt": "Jagua",
+            "desc": "Jagua",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.140",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.4510924, 22.1464515]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house",
+            "cmt": "Guest house",
+            "desc": "Guest house",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.141",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.4507302, 22.1222334]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Casa Verde",
+            "cmt": "Casa Verde",
+            "desc": "Casa Verde",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.142",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.4140298, 22.0357857]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Ranco Luna",
+            "cmt": "Ranco Luna",
+            "desc": "Ranco Luna",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.143",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.0022596, 21.7377589]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel Brisas Trinidad del Mar",
+            "cmt": "Hotel Brisas Trinidad del Mar",
+            "desc": "Hotel Brisas Trinidad del Mar",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.144",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.0022134, 21.8076983]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Ma Dolores",
+            "cmt": "Ma Dolores",
+            "desc": "Ma Dolores",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.145",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.0002362, 22.4021929]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Los Caneyes",
+            "cmt": "Los Caneyes",
+            "desc": "Los Caneyes",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.146",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.9995967, 22.153856]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Chalet:CO6UK",
+            "cmt": "Chalet:CO6UK",
+            "desc": "Chalet:CO6UK",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.147",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.9992073, 21.7352432]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Ancón",
+            "cmt": "Ancón",
+            "desc": "Ancón",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.148",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.986362, 21.8021719]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house:Hostal Noemi y Otto",
+            "cmt": "Guest house:Hostal Noemi y Otto",
+            "desc": "Guest house:Hostal Noemi y Otto",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.149",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.9861347, 21.8048484]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house:Casa Meyer",
+            "cmt": "Guest house:Casa Meyer",
+            "desc": "Guest house:Casa Meyer",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.150",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.9858959, 21.8045122]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house:Casa Font",
+            "cmt": "Guest house:Casa Font",
+            "desc": "Guest house:Casa Font",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.151",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.9843297, 21.8010055]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel",
+            "cmt": "Hotel",
+            "desc": "Hotel",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.152",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.9820513, 21.8061953]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house",
+            "cmt": "Guest house",
+            "desc": "Guest house",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.153",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.98196, 21.8030235]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house",
+            "cmt": "Guest house",
+            "desc": "Guest house",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.154",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.4533946, 21.9572246]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Motel:Rancho Hatuey",
+            "cmt": "Motel:Rancho Hatuey",
+            "desc": "Motel:Rancho Hatuey",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.155",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.4430876, 21.9260915]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hostal El Rijo",
+            "cmt": "Hostal El Rijo",
+            "desc": "Hostal El Rijo",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.156",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.4427625, 21.9274612]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel Plaza",
+            "cmt": "Hotel Plaza",
+            "desc": "Hotel Plaza",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.157",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.0570682, 22.6583327]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Melia Las Dunas",
+            "cmt": "Melia Las Dunas",
+            "desc": "Melia Las Dunas",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.158",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-78.7607861, 21.842251]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house:Casa de Pepe",
+            "cmt": "Guest house:Casa de Pepe",
+            "desc": "Guest house:Casa de Pepe",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.159",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-78.6496517, 22.5840098]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "sol Cayo Guillermo",
+            "cmt": "sol Cayo Guillermo",
+            "desc": "sol Cayo Guillermo",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.160",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-78.6419698, 22.5750544]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Melia Cayo Guillermo",
+            "cmt": "Melia Cayo Guillermo",
+            "desc": "Melia Cayo Guillermo",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.161",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-78.6412832, 22.5733504]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Villa Cojimar",
+            "cmt": "Villa Cojimar",
+            "desc": "Villa Cojimar",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.162",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-78.3815199, 22.5120842]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Villa Azul",
+            "cmt": "Villa Azul",
+            "desc": "Villa Azul",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.163",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-78.3712954, 22.5408785]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Tryp Cayo Coco",
+            "cmt": "Tryp Cayo Coco",
+            "desc": "Tryp Cayo Coco",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.164",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-78.3556956, 22.5355868]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Sol Cayo Coco",
+            "cmt": "Sol Cayo Coco",
+            "desc": "Sol Cayo Coco",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.165",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-78.3539415, 22.5349873]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Meliá Cayo Coco",
+            "cmt": "Meliá Cayo Coco",
+            "desc": "Meliá Cayo Coco",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.166",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-78.2338294, 21.5312157]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Islazul Florida Hotel",
+            "cmt": "Islazul Florida Hotel",
+            "desc": "Islazul Florida Hotel",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.167",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-77.9219173, 21.3843828]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house:La Casona de Fauti",
+            "cmt": "Guest house:La Casona de Fauti",
+            "desc": "Guest house:La Casona de Fauti",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.168",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-77.9174189, 21.3837927]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house:Casa Alba Ferraz",
+            "cmt": "Guest house:Casa Alba Ferraz",
+            "desc": "Guest house:Casa Alba Ferraz",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.169",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-77.9172388, 21.3818547]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Gran Hotel",
+            "cmt": "Gran Hotel",
+            "desc": "Gran Hotel",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.170",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-77.916488, 21.3876333]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel Colón",
+            "cmt": "Hotel Colón",
+            "desc": "Hotel Colón",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.171",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-77.9149292, 21.399151]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house:Casa Miriam Guerra de la Cruz",
+            "cmt": "Guest house:Casa Miriam Guerra de la Cruz",
+            "desc": "Guest house:Casa Miriam Guerra de la Cruz",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.172",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-77.886039, 21.3624619]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel Camagüey",
+            "cmt": "Hotel Camagüey",
+            "desc": "Hotel Camagüey",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.173",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-77.8847086, 21.361183]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Isla Azul",
+            "cmt": "Isla Azul",
+            "desc": "Isla Azul",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.174",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-76.9549689, 20.9584037]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house",
+            "cmt": "Guest house",
+            "desc": "Guest house",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.175",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-76.9424889, 20.9532291]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel Las Tunas",
+            "cmt": "Hotel Las Tunas",
+            "desc": "Hotel Las Tunas",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.176",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-76.6479413, 20.3777216]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house:Casa Particular",
+            "cmt": "Guest house:Casa Particular",
+            "desc": "Guest house:Casa Particular",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.177",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-76.4029302, 19.9670384]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Sierra Mar",
+            "cmt": "Sierra Mar",
+            "desc": "Sierra Mar",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.178",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-76.2617989, 20.8901474]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house",
+            "cmt": "Guest house",
+            "desc": "Guest house",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.179",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-76.2594519, 20.8949336]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house",
+            "cmt": "Guest house",
+            "desc": "Guest house",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.180",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-76.2402101, 20.88957]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel Pernik",
+            "cmt": "Hotel Pernik",
+            "desc": "Hotel Pernik",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.181",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-76.2003316, 20.8376692]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Mirador de Mayabe",
+            "cmt": "Mirador de Mayabe",
+            "desc": "Mirador de Mayabe",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.182",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.9945526, 21.0879848]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Don Lino",
+            "cmt": "Don Lino",
+            "desc": "Don Lino",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.183",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.8642593, 19.9664344]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Balcón del Caribe",
+            "cmt": "Balcón del Caribe",
+            "desc": "Balcón del Caribe",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.184",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.8360422, 19.9959154]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Versalles",
+            "cmt": "Versalles",
+            "desc": "Versalles",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.185",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.8318021, 20.024885]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house",
+            "cmt": "Guest house",
+            "desc": "Guest house",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.186",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.8280856, 20.0206039]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "San Basilio",
+            "cmt": "San Basilio",
+            "desc": "San Basilio",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.187",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.8217469, 20.0216126]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Libertad",
+            "cmt": "Libertad",
+            "desc": "Libertad",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.188",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.8215103, 21.1273516]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "El Cayuelo",
+            "cmt": "El Cayuelo",
+            "desc": "El Cayuelo",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.189",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.8138296, 20.0473624]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Rancho Club",
+            "cmt": "Rancho Club",
+            "desc": "Rancho Club",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.190",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.810159, 20.0150539]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Villa Trópico",
+            "cmt": "Villa Trópico",
+            "desc": "Villa Trópico",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.191",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.8085453, 20.0259307]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Las Américas",
+            "cmt": "Las Américas",
+            "desc": "Las Américas",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.192",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.7993828, 20.0217675]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "San Juan",
+            "cmt": "San Juan",
+            "desc": "San Juan",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.193",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.7980688, 20.028998]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Villa Santiago de Cuba",
+            "cmt": "Villa Santiago de Cuba",
+            "desc": "Villa Santiago de Cuba",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.194",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.7768905, 20.0495207]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hacienda El Caney",
+            "cmt": "Hacienda El Caney",
+            "desc": "Hacienda El Caney",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.195",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.6911924, 19.9407987]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Club Bucanero",
+            "cmt": "Club Bucanero",
+            "desc": "Club Bucanero",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.196",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.6835828, 20.6544926]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house",
+            "cmt": "Guest house",
+            "desc": "Guest house",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.197",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.6824222, 20.6550616]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Motel:Bitiri",
+            "cmt": "Motel:Bitiri",
+            "desc": "Motel:Bitiri",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.198",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.632305, 20.0151264]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Gran Piedra",
+            "cmt": "Gran Piedra",
+            "desc": "Gran Piedra",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.199",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.5231656, 19.8874764]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Costa Morena",
+            "cmt": "Costa Morena",
+            "desc": "Costa Morena",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.200",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.4802502, 19.8865079]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Corales Carisol",
+            "cmt": "Corales Carisol",
+            "desc": "Corales Carisol",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.201",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.2306067, 20.1898643]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Lupe",
+            "cmt": "Lupe",
+            "desc": "Lupe",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.202",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.211055, 20.1589482]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel Guantánamo",
+            "cmt": "Hotel Guantánamo",
+            "desc": "Hotel Guantánamo",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.203",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.2030899, 20.1436628]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel Marti",
+            "cmt": "Hotel Marti",
+            "desc": "Hotel Marti",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.204",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-74.9517242, 20.6649821]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "MIRAFLORES",
+            "cmt": "MIRAFLORES",
+            "desc": "MIRAFLORES",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.205",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-74.5856691, 20.4676321]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Maguana",
+            "cmt": "Maguana",
+            "desc": "Maguana",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.206",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-74.504673, 20.3573396]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel Porto Snto",
+            "cmt": "Hotel Porto Snto",
+            "desc": "Hotel Porto Snto",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.207",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-74.5000325, 20.3481581]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Guest house",
+            "cmt": "Guest house",
+            "desc": "Guest house",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.208",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-74.4987988, 20.348034]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hotel El Castillo",
+            "cmt": "Hotel El Castillo",
+            "desc": "Hotel El Castillo",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.209",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-74.4960839, 20.3477136]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hostel",
+            "cmt": "Hostel",
+            "desc": "Hostel",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.210",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-74.4952171, 20.3483091]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "La Rusa",
+            "cmt": "La Rusa",
+            "desc": "La Rusa",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    },
+    {
+        "type": "Feature",
+        "id": "hoteles.211",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-74.4945439, 20.3439114]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+            "ele": null,
+            "time": "",
+            "magvar": null,
+            "geoidheigh": null,
+            "name": "Hostel",
+            "cmt": "Hostel",
+            "desc": "Hostel",
+            "src": "",
+            "url": "",
+            "urlname": "",
+            "sym": "",
+            "type": "",
+            "fix": "",
+            "sat": null,
+            "hdop": null,
+            "vdop": null,
+            "pdop": null,
+            "ageofdgpsd": null,
+            "dgpsid": null
+        }
+    }
+], "crs": {
+    "type": "EPSG",
+    "properties": {
+        "code": "4326"
+    }
+}}

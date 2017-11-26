@@ -1,0 +1,6 @@
+CREATE OR REPLACE VIEW vistas_resumen.tipo_examen AS 
+ SELECT *
+   FROM sst.tipo_examen;
+
+ALTER TABLE vistas_resumen.tipo_examen
+  OWNER TO postgres;

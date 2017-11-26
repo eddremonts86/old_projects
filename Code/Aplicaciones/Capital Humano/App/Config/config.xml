@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<App>
+    <subsystem name="Admin">
+        <icon>fa fa-gears fa-6x</icon>
+    </subsystem>
+    <subsystem name="Plantilla">
+        <icon>fa fa-glass fa-6x</icon>
+    </subsystem>
+    <subsystem name="Capacitacion">
+        <icon>fa fa-music fa-6x</icon>
+    </subsystem>
+    <subsystem name="SistemaBase">
+        <icon>fa fa-search fa-6x</icon>
+    </subsystem>
+    <subsystem name="Cuadro">
+        <icon>fa fa-film fa-6x</icon>
+    </subsystem>
+    <subsystem name="Salario">
+        <icon>fa fa-check fa-6x</icon>
+    </subsystem>
+    <subsystem name="SST">
+        <icon>fa fa-times fa-6x</icon>
+    </subsystem>
+    <subsystem name="ValorAgregado">
+        <icon>fa fa-signal fa-6x</icon>
+    </subsystem>
+</App>

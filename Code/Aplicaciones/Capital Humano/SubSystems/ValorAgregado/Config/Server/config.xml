@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<subsystem name="ValorAgregado">
+    <module name="ValorAg" desc="Module to manage the feature of the sigtriade">
+        <js>ValorAg</js>
+        <functions>
+            <Import source="ValorAgGestionar" desc="Function for import a subsystem"/>
+        </functions>
+    </module>
+</subsystem>

@@ -1,0 +1,325 @@
+function EstimulosGestionar()
+{
+    this._btn_add = null;
+    this._btn_mod = null;
+    this._btn_del = null;    
+    this.Render = function(Panel){
+        this._btn_add = Ext.create('Ext.Button',{
+            text: 'Adicionar',
+            id: 'add_Estimulos__bt_id',
+            tooltip : 'Adiciona un  nuevo Estimulos',
+            iconCls: 'list_add16',
+            handler: Ext.Function.bind(this.Owner.OnShowWindowcp, this.Owner,['add'])
+        });
+        this._btn_del = Ext.create('Ext.Button',{
+            text: 'Eliminar',
+            id: 'del_Estimulos_btn_id',
+            tooltip : 'Elimina el Estimulos seleccionado',
+            iconCls: 'edit_delete16',
+            disabled: true,
+            handler: Ext.Function.bind(this.Owner.deltectcp, this.Owner,['del'])
+        });
+        this._btn_mod = Ext.create('Ext.Button', {
+            text: 'Modificar',
+            id: 'mod_Estimulos_btn_id',
+            tooltip : 'Modifica el Estimulos seleccionado',
+            iconCls: 'apply16',
+            disabled: true,
+            handler: Ext.Function.bind(this.Owner.OnShowWindow2cp, this.Owner, ['upd'])
+        });
+        var tbar = Ext.getCmp('Estimulos_tbar_id');
+        tbar.add(this._btn_add);
+        tbar.add(' ');
+        tbar.add('-');
+        tbar.add(this._btn_mod);
+        tbar.add(' ');
+        tbar.add('-');
+        tbar.add(this._btn_del);
+        tbar.add(' ');
+        tbar.add('-');
+        tbar.add('->');
+        tbar.add({
+            xtype: 'textfield',
+            name: 'searchField',
+            id:'searchField_control',
+            enableKeyEvents : true,
+            hideLabel: true,
+            width: 200,
+            emptyText:'Control...',
+            listeners: {
+                change:function(){
+                    Ext.getCmp('Estimulos_grid_id').store.clearFilter();
+                    Ext.getCmp('Estimulos_grid_id').store.filter("nombre", Ext.getCmp('searchField_control').getValue());
+                    Ext.getCmp('Estimulos_grid_id').store.filter("ejecutor", Ext.getCmp('searchField_ejecutor').getValue());
+                },scope:this
+            }
+        });
+        tbar.add('-');
+        tbar.add({
+            xtype: 'textfield',
+            name: 'searchField',
+            id:'searchField_ejecutor',
+            enableKeyEvents : true,
+            hideLabel: true,
+            width: 200,
+            emptyText:'Ejecutor...',
+            listeners: {
+                change:function(){
+                    Ext.getCmp('Estimulos_grid_id').store.clearFilter();
+                    Ext.getCmp('Estimulos_grid_id').store.filter("ejecutor", Ext.getCmp('searchField_ejecutor').getValue());
+                    Ext.getCmp('Estimulos_grid_id').store.filter("nombre", Ext.getCmp('searchField_control').getValue());
+                },scope:this
+            }
+        });
+    }
+    this.Enable = function(){
+        this._btn_mod.enable();
+        this._btn_del.enable();
+    }
+    this.Disable = function(){
+        this._btn_mod.disable();
+        this._btn_del.disable();
+    }
+}
+App.RegisterFunction('EstimulosGestionar', new EstimulosGestionar());
+this.panel=null;
+this.panelupd=null;
+Estimulos.prototype.OnShowWindowcp = function(_paccion){
+    var _value_nom = null;
+    if(_paccion == 'add')
+    {
+       this.panel = Ext.create('Ext.form.Panel', {
+            bodyPadding: 5,
+            width: 350,
+            layout: 'anchor',
+            id:'panel',
+            name:'panel',
+            defaults: {
+                anchor: '100%'
+            },
+            defaultType: 'textfield',
+            items: [
+                {
+                    xtype: 'textfield',
+                    name: 'stimulo',
+                    id: 'stimulo',
+                    fieldLabel: 'Tipo de Estímulo',
+                    allowBlank: false
+                },{
+                    xtype: 'textfield',
+                    name: 'abe',
+                    id: 'abe',
+                    fieldLabel: 'Abreviatura',
+                    allowBlank: false
+                },
+                {
+                fieldLabel: 'Descripción Tipo de Estímulo',
+                xtype: 'textarea',
+                name: 'Causa',
+                id:'Causa',
+                height:150,
+                allowBlank: false,
+                maxLength: 255
+            }
+            ]
+        });
+        var _gst_win = new Ext.Window({
+                title:'Adicionar un Control',
+                id: '_gst_Add_win_id_Causa',
+                name: '_gst_Add_win_id_Causa',
+                height: 330,
+                width: 450,
+                plain: true,
+                layout: 'fit',
+                modal: true,
+                resizable: false,
+                items: [this.panel],
+                buttons: [{
+                    text: 'Aceptar',cls:'btn btn-success',
+                    handler: Ext.Function.bind(this.Add, this, [_paccion]),
+                    scope: this
+                }, {
+                    text: 'Cancelar',cls:'btn btn-primary',
+                    handler: function(){
+                        _gst_win.close();
+                    }
+                }],
+                listeners: {
+                    'show': function(This, eOpts) {
+                        Ext.getCmp('from_date_Causa').focus(true, true);
+                    }
+                }
+            });
+        _gst_win.show();
+    }
+
+    else
+        Ext.Msg.alert('Atención', 'Acción no definida');
+}
+Estimulos.prototype.OnShowWindow2cp = function(_paccion){
+    var _value_nom_oll = null;
+    var id=null;
+    var _selectionModel = Ext.getCmp('Estimulos_grid_id').getSelectionModel();
+    var _selected_rcd = _selectionModel.getLastSelected();
+    var abe=_selected_rcd.data.abe;
+     id=_selected_rcd.data.id;
+    var nombre =_selected_rcd.data.nombre;
+    var descr=_selected_rcd.data.descr;
+
+
+    if(_paccion == 'upd')
+     {
+         this.tEstimulos = App.BuildJsonStore('Estimulos.Estimulos.tEstimulos',{
+             fields: [
+                 {name: 'id'},
+                 {name: 'nombre'}
+             ],
+             proxy: {
+                 type: 'ajax',
+                 reader: {type: 'json',root: 'rows',totalProperty: 'results'}
+             },
+             autoLoad: true
+         });
+         var Tviolacion =  Ext.create('Ext.form.ComboBox', {
+             fieldLabel: 'Tipo violacion',
+             name: 'tviolacion',
+             id: 'tviolacion',
+             allowBlank: false,
+             store:this.tEstimulos,
+             queryMode: 'local',
+             displayField: 'nombre',
+             valueField: 'id'
+         });
+         this.panelupd = Ext.create('Ext.form.Panel', {
+             id: 'panelupd',
+             name: 'panelupd',
+             bodyPadding: 5,
+             width: 350,
+             layout: 'anchor',
+             defaults: {
+                 anchor: '100%'
+             },
+             defaultType: 'textfield',
+             items: [
+                 {
+                     xtype: 'textfield',
+                     name: 'stimulo',
+                     id: 'stimulo',
+                     fieldLabel: 'Tipo de Estímulo',
+                     allowBlank: false,
+                     value:nombre
+                 },{
+                     xtype: 'textfield',
+                     name: 'abe',
+                     id: 'abe',
+                     fieldLabel: 'Abreviatura',
+                     allowBlank: false,value:abe
+                 },
+                 {
+                     xtype: 'textfield',
+                     name: 'id',
+                     id: 'id',
+                     fieldLabel: 'id',
+                     hidden:true,
+                     allowBlank: false,value:id
+                 },
+                 {
+                     fieldLabel: 'Descripción Tipo de Estímulo',
+                     xtype: 'textarea',
+                     name: 'Causa',
+                     id:'Causa',
+                     height:150,
+                     allowBlank: false,
+                     maxLength: 255,value:descr
+                 }
+             ]
+         });
+         var _gst_win = new Ext.Window(
+             {
+                 title:'Modificar el Control',
+                 id: '_gst_Udt_win_id',
+                 name: '_gst_Udt_win_id',
+                 height: 350,
+                 width: 450,
+                 plain: true,
+                 layout: 'fit',
+                 modal: true,
+                 resizable: false,
+                 items: [this.panelupd],
+                 buttons: [{
+                     text: 'Aceptar',cls:'btn btn-success',
+                     handler: Ext.Function.bind(this.Modid, this, [_paccion,_selectionModel,_selected_rcd]),
+                     scope: this
+                 }, {
+                     text: 'Cancelar',cls:'btn btn-primary',
+                     handler: function(){
+                         _gst_win.close();
+                     }
+                 }],
+                 listeners: {
+                     'show': function(This, eOpts) {
+                         Ext.getCmp('Causa').focus(true, true);
+                     }
+                 }
+             });
+
+         _gst_win.show();
+
+     }
+     else
+         Ext.Msg.alert('Atención', 'Acción no definida');
+ }
+Estimulos.prototype.Add = function(_paccion){
+
+    if (Ext.getCmp('panel').getForm().isValid())
+    {
+        App.ShowMsgBox(Ext.Msg.wait('Por favor, espere un momento', 'Procesando...'));
+        var   _result = App.PerformSyncServerRequest('Estimulos.Estimulos.Add',this.panel.getForm().getValues());
+        this.__data_store.load();
+        App.HideMsgBox();
+        if(_result)
+        {
+            Ext.getCmp('panel').getForm().reset();
+            Ext.getCmp('stimulo').focus(true, true);
+            this.__data_store.load();
+            App.InfoMessage('Información', 'Estimulos adicionado satisfactoriamente');
+        }
+    }
+}
+Estimulos.prototype.Modid = function(_paccion,_selectionModel,_selected_rcd){
+
+    if (Ext.getCmp('panelupd').getForm().isValid())
+    {
+        App.ShowMsgBox(Ext.Msg.wait('Por favor, espere un momento', 'Procesando...'));
+        var _result = App.PerformSyncServerRequest('Estimulos.Estimulos.Modid',this.panelupd.getForm().getValues());
+        this.__data_store.load();
+        App.HideMsgBox();
+
+        if(_result)
+        {
+            Ext.getCmp('_gst_Udt_win_id').close();
+            _selectionModel.deselect(_selected_rcd);
+            this.__data_store.load();
+            App.InfoMessage('Información', 'Estimulos modificado satisfactoriamente');
+        }
+    }
+ }
+Estimulos.prototype.deltectcp=function(_paccion){
+    var me = this;
+    var fnCallBack = function() {
+        var _selected_rcd = Ext.getCmp('Estimulos_grid_id').getSelectionModel().getLastSelected();
+        var id = _selected_rcd.data.id;
+        App.ShowMsgBox(Ext.Msg.wait('Por favor, espere un momento', 'Procesando...'));
+        _result = App.PerformSyncServerRequest('Estimulos.Estimulos.Eliminar', {id: id});
+        App.HideMsgBox();
+
+        if(_result)
+        {
+            me.__data_store.load();
+            App.InfoMessage('Información', 'Estimulos eliminado correctamente');
+        }
+    }
+
+    App.ConfirmMessage(fnCallBack, '¿Está seguro que desea eliminar este Estimulos?');
+
+}

@@ -1,0 +1,91 @@
+
+        $conn_string = "host= 192.168.152.3  port= 5432 dbname=sconpte2.0.1  user=postgres password=postgres";
+        $concctions=pg_connect($conn_string);
+//Total plan
+        $SQL = "SELECT
+                id_unidad,
+                sum(total)as total,
+                sum(cuc)as cuc
+                FROM datos._view_datos_pte_agencias where
+                id_unidad='id' and
+                --id_unidad is null and
+                orden <=$mes and anno='$anno'
+                and (orden_indicador = 1 or orden_indicador = 2 or orden_indicador = 3 or orden_indicador = 4 or orden_indicador = 5 or orden_indicador = 6)
+                and id_tipo = 'emp18' group by id_unidad
+               ";
+//Total real
+        $SQL1 = "SELECT
+                id_unidad,
+                sum(total)as total,
+                sum(cuc)as cuc
+                FROM datos._view_datos_pte_agencias where
+                id_unidad='id' and
+                --id_unidad is null and
+                orden <=$mes and anno='$anno'
+                and (orden_indicador = 1 or orden_indicador = 2 or orden_indicador = 3 or orden_indicador = 4 or orden_indicador = 5 or orden_indicador = 6)
+                and id_tipo = 'emp20' group by id_unidad
+         ";
+//Total PPI
+        $SQL2 = "
+            SELECT
+            id_unidad,
+            sum(total)as total,
+            sum(cuc)as cuc
+            FROM datos._view_datos_pte_agencias
+            where id_unidad='DE-AG-4' and orden <= 10 and anno='2014'
+            and (orden_indicador = 52)
+            --id_unidad is null and
+            and id_tipo = 'emp20'
+            group by id_unidad
+         ";
+//Total PPF
+        $SQL3 = "
+            SELECT
+            id_unidad,
+            sum(total)as total,
+            sum(cuc)as cuc
+            FROM datos._view_datos_pte_agencias
+            where id_unidad='de_sconpte2.0.1_296997' and orden <= 5 and anno='2014'
+            and (orden_indicador = 53)
+            --id_unidad is null and
+            and id_tipo = 'emp20'
+            group by id_unidad
+         ";
+//Total PTI
+        $SQL4 = "SELECT
+                id_unidad,
+                sum(total)as total,
+                sum(cuc)as cuc
+                FROM datos._view_datos_pte_agencias
+                where id_unidad='de_sconpte2.0.1_296997' and orden <= 10 and anno='2014'
+                and (orden_indicador = 50)
+                --id_unidad is null and
+                and id_tipo = 'emp20'
+                group by id_unidad
+               ";
+//Total PTF
+        $SQL5 = "SELECT
+                id_unidad,
+                sum(total)as total,
+                sum(cuc)as cuc
+                FROM datos._view_datos_pte_agencias
+                where id_unidad='de_sconpte2.0.1_296997' and orden <= 5 and anno='2014'
+                and (orden_indicador = 51)
+                --id_unidad is null and
+                and id_tipo = 'emp20'
+                group by id_unidad
+            ";
+
+        $datos = pg_query($concctions,$SQL);
+        $datos1 = pg_query($concctions,$SQL1);
+        $datos2 = pg_query($concctions,$SQL2);
+        $datos3 = pg_query($concctions,$SQL3);
+        $datos4 = pg_query($concctions,$SQL4);
+        $datos5 = pg_query($concctions,$SQL5);
+
+        $arr = pg_fetch_all($datos);
+        $arr1 = pg_fetch_all($datos1);
+        $arr2 = pg_fetch_all($datos2);
+        $arr3 = pg_fetch_all($datos3);
+        $arr4= pg_fetch_all($datos4);
+        $arr5 = pg_fetch_all($datos5);

@@ -1,0 +1,132 @@
+    $fecha = date('Y-m-d');
+        $pre_nomina = $this->_dbase->GetTable("salario.pre_nomina");
+        $subVaca = $this->_dbase->GetTable("salario.submayor_vacaciones");
+        $Acumul = $this->_dbase->GetTable("salario.acumulado_vacaciones");
+        //        $idc = '';
+//        $contratos = array();
+//        for($i=0;$i<count($data);$i++){
+//           if($idc == ''){
+//                $idc = 'id_contrato = '.$data[$i]->contratoid;
+//            }
+//           else{
+//                $idc = 'OR id_contrato = '.$data[$i]->contratoid;
+//            }
+//        }
+//        $data2 = $pre_nomina->GetAll($idc);
+//        $hold = $subVaca->GetAll($idp);
+        $acumulado = $Acumul->GetAll();
+        $acumulados = $this->convert_assoc_array_multiple($acumulado, 'id_contrato', 'dias', 'importe');
+        for ($i = 0; $i < count($data); $i++) {
+            $id = $data[$i]->id_tabaj;
+            $id_prenomina = $data[$i]->id_prenomina;
+            $ant_dinero = $data[$i]->ant_dinero;
+            $contratoid = $data[$i]->contratoid;
+
+            $nombre = $data[$i]->trabajador_nombre_completo;
+            $identidad = $data[$i]->identidad;
+            $trabajador_id = $data[$i]->trabajador_nombre_completo;
+            $escala = $data[$i]->nombre;
+            //calcular horas
+            $hora = $data[$i]->horas;
+            $dias = $hora / 7.9416;
+            $salario = $data[$i]->salario;
+            $cla = $data[$i]->cla;
+            $pago_adicion = $data[$i]->pago_adicion;
+            $cies = $data[$i]->cies;
+            $otros = $data[$i]->otros;
+            $tnc = $data[$i]->tnc;
+            $ant = $data[$i]->ant;
+            $extimulacion = $data[$i]->ext;
+            $Ext_ext = $data[$i]->Ext_ext;
+            $cpl = $data[$i]->cpl;
+            $cdt = $data[$i]->CDT;
+            $salariomedio = ((($salario + $pago_adicion) / 24) * $dias);
+            $extimulo = (($salariomedio) * ($extimulacion / 100));
+
+            //calcular tiempo vacaciones
+            //$vacaciones=$dias*0.09083333333333333;
+            $vacaciones = $dias * 0.0909;
+            //calcular Penalizaciones
+            $pen_extim = 0;
+            $pen_antg = 0;
+            if ($cdt < 70) {
+                $pen_extim = $extimulo;
+                $pen_antg = $extimulo; //aqu va la antiguedad
+            } else if ($cdt >= 70 && $cdt < 80) {
+                $pen_extim = $extimulo * 0.2;
+                $pen_antg = $extimulo * 0.3; //aqu va la antiguedad
+            } else if ($cdt >= 80 && $cdt < 90) {
+                $pen_extim = $extimulo * 0.1;
+                $pen_antg = $extimulo * 0.3; //aqu va la antiguedad
+            } else if ($cdt >= 90 && $cdt <= 100 || $cdt == 0) {
+                $pen_extim = 0;
+                $pen_antg = 0;
+            }
+            $ant_dinero = $ant_dinero / 24 * $dias;
+            //calcular total
+            $subtotal = ($salariomedio + $extimulo + ($cies + $cla + $otros + $tnc + $ant + $Ext_ext)) - ($pen_extim + $pen_antg) + $ant_dinero;
+            //calcular Vacaciones 0.9
+            $vacaciones_dinero = $subtotal * 0.0909;
+            $sql = "SELECT count (pre_nomina.id) FROM salario.pre_nomina where pre_nomina.id_contrato= '$contratoid'
+                AND date_part('month'::text, now()::date) = date_part('month'::text, pre_nomina.fecha)
+                AND date_part('year'::text, now()) = date_part('year'::text, pre_nomina.fecha)
+                ";
+            $datos = pg_query($sql);
+            $arr = pg_fetch_all($datos);
+            $total = $arr[0]['count'];
+
+            if (isset($contratoid)) {
+                $datos_ant = $this->_dbase->Select("SELECT vacaciones,importe_vacaciones FROM salario.submayor_vacaciones WHERE id_contrato = '" . $contratoid . "' AND date_part('month'::text, now()::date) = date_part('month'::text, submayor_vacaciones.fecha)
+                    AND date_part('year'::text, now()) = date_part('year'::text, submayor_vacaciones.fecha)");
+                $antes = $datos_ant->GetAll();
+                if ($total > 0) {
+                    $sql = "DELETE  FROM  salario.pre_nomina  where pre_nomina.id_contrato= '$contratoid'
+                        AND date_part('month'::text, now()::date) = date_part('month'::text, pre_nomina.fecha)
+                        AND date_part('year'::text, now()) = date_part('year'::text, pre_nomina.fecha)
+                    ";
+//                    $subVaca->DeleteWhere("id_contrato= '$contratoid'
+//                        AND date_part('month'::text, now()::date) = date_part('month'::text, submayor_vacaciones.fecha)
+//                        AND date_part('year'::text, now()) = date_part('year'::text, submayor_vacaciones.fecha)");
+                    $datos = pg_query($sql);
+                }
+                $pre_nomina->InsertValues(array(
+                    'nombre' => "'$nombre'",
+                    'escala' => "'$escala'",
+                    'salario_total' => "'$subtotal'",
+                    'antig' => "'$ant_dinero'",
+                    'dias' => "'$dias'",      
+                    'horas' => "'$hora'",
+                    'sal_basico' => "'$salario'",
+                    'pago_adic' => "'$pago_adicion'",
+                    'cla' => "'$cla'",
+                    'otos' => "'$otros'",
+                    'estimulo' => "'$extimulo'",
+                    'vacaciones' => "'$vacaciones'",
+                    'trabajador_id' => "'$id'",
+                    'identidad' => "'$identidad'",
+                    'fecha' => "'$fecha'",
+                    'id_contrato' => "'$contratoid'",
+                ));
+//                print_r($antes);die;
+                if (!is_array($antes)) {
+                    $antes[0]['vacaciones'] = 0;
+                    $antes[0]['importe_vacaciones'] = 0;
+                    $subVaca->InsertValues(array('vacaciones' => "'$vacaciones'", 'importe_vacaciones' => "'$vacaciones_dinero'", 'fecha' => "'$fecha'", 'id_contrato' => "'$contratoid'"));
+                } else {
+                    $subVaca->Update(array('vacaciones' => "'$vacaciones'", 'importe_vacaciones' => "'$vacaciones_dinero'"), "id_contrato = '" . $contratoid . "' AND date_part('month'::text, now()::date) = date_part('month'::text, submayor_vacaciones.fecha)
+                    AND date_part('year'::text, now()) = date_part('year'::text, submayor_vacaciones.fecha)");
+                }
+                if (!is_array($acumulado)) {
+                    $acumulado[0]['dias'] = 0;
+                    $acumulado[0]['importe'] = 0;
+                }
+                $dias_acumulados = $acumulados[$contratoid]['dias'] + $vacaciones - $antes[0]['vacaciones'];
+                $importe_acumulados = $acumulados[$contratoid]['importe'] + $vacaciones_dinero - $antes[0]['importe_vacaciones'];
+//                print_r($acumulados);die;
+                if (!isset($acumulados[$contratoid]))
+                    $Acumul->InsertValues(array('id_contrato' => "'$contratoid'", 'dias' => "'$dias_acumulados'", 'importe' => "'$importe_acumulados'"));
+                else
+                    $Acumul->Update(array('dias' => "'$dias_acumulados'", 'importe' => "'$importe_acumulados'"), "id_contrato = '$contratoid'");
+
+            }
+        }

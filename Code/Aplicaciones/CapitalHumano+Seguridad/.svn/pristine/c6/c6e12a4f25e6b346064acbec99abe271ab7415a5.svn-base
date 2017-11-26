@@ -1,0 +1,204 @@
+Ext.require(['Ext.tab.*','Ext.ux.TabCloseMenu','Ext.selection.CellModel','Ext.grid.*','Ext.data.*','Ext.util.*','Ext.form.*' ]);
+function PlanVacacion(){
+    this.__data_store = null;
+    this.Init = function()
+    {                   
+        var _menu_item_config_cliente =
+        {
+            text: 'PlanVacacion',
+            id: 'PlanVacacion_menu_id1',
+            iconCls: 'nomencladores',
+            handler: Ext.Function.bind(this.ShowMainWindow, this)
+        };
+        App.InsertMenuItem('Codificadores',_menu_item_config_cliente);
+
+    }
+    // ========================================================================//
+    this.BuildMainPanel = function(filterObj)
+    {
+        this.__data_store = App.BuildJsonStore('PlanVacacion.PlanVacacion.CargarDatoscuadros',{
+            fields: [
+            {name: 'id'},
+            {name: 'nombre'},
+            {name: 'dias_vacaciones'},
+
+            {name: 'salir1'},
+            {name: 'salir2'},
+            {name: 'salir3'},
+            {name: 'salir4'},
+            {name: 'salir5'},
+            {name: 'salir6'},
+            {name: 'salir7'},
+            {name: 'salir8'},
+            {name: 'salir9'},
+            {name: 'salir10'},
+            {name: 'salir11'},
+            {name: 'salir12'},
+
+                {name: 'cmplid1'},
+                {name: 'cmplid2'},
+                {name: 'cmplid3'},
+                {name: 'cmplid4'},
+                {name: 'cmplid5'},
+                {name: 'cmplid6'},
+                {name: 'cmplid7'},
+                {name: 'cmplid8'},
+                {name: 'cmplid9'},
+                {name: 'cmplid10'},
+                {name: 'cmplid11'},
+                {name: 'cmplid12'}
+
+
+
+            ],
+            proxy: {
+                type: 'ajax',
+                reader: {type: 'json',root: 'rows',totalProperty: 'results'}
+            },
+            autoLoad: true
+            });
+        this.cellEditing = new Ext.grid.plugin.CellEditing({clicksToEdit: 1});
+        var _grid = new Ext.grid.Panel({
+            id: 'Estimulos_grid_id',
+            height: App.GetDesktopHeigth() - 35,
+            width: '100%',
+            plugins: [this.cellEditing],
+            layout: 'anchor',
+            region: 'center',
+            columnLines: true,
+            frame: true,
+            store: this.__data_store,
+            columns: [
+                {xtype: 'rownumberer'},
+                { text: 'Name',  dataIndex: 'nombre',width:250,lockable:true,locked:true },
+                { text: 'Acumulado', dataIndex: 'dias_vacaciones',width:100},
+
+                { text: 'Enero',flex: 3,
+                    columns:[
+                        { text: 'Fecha',width:100,dataIndex: 'salir1',editor: {allowBlank: false}},
+                        { text: 'Cumplimiento',width:110, dataIndex: 'cmplid1',editor: {allowBlank: false}}
+                    ]
+                },
+                { text: 'Febrero',flex: 3,
+                    columns:[
+                        { text: 'Fecha',width:100,dataIndex: 'salir2',editor: {allowBlank: false}},
+                        { text: 'Cumplimiento',width:110, dataIndex: 'cmplid2',editor: {allowBlank: false}}
+                    ]
+                },
+                { text: 'Marzo',flex: 3,
+                    columns:[
+                        { text: 'Fecha',width:100,dataIndex: 'salir3',editor: {allowBlank: false}},
+                        { text: 'Cumplimiento',width:110, dataIndex: 'cmplid3',editor: {allowBlank: false}}
+                    ]
+                },
+                { text: 'Abril',flex: 3,
+                    columns:[
+                        { text: 'Fecha',width:100,dataIndex: 'salir4',editor: {allowBlank: false}},
+                        { text: 'Cumplimiento',width:110, dataIndex: 'cmplid4',editor: {allowBlank: false}}
+                    ]
+                },
+                { text: 'Mayo',flex: 3,
+                    columns:[
+                        { text: 'Fecha',width:100,dataIndex: 'salir5',editor: {allowBlank: false}},
+                        { text: 'Cumplimiento',width:110, dataIndex: 'cmplid5',editor: {allowBlank: false}}
+                    ]
+                },
+                { text: 'Junio',flex: 3,
+                    columns:[
+                        { text: 'Fecha',width:100,dataIndex: 'salir6',editor: {allowBlank: false}},
+                        { text: 'Cumplimiento',width:110, dataIndex: 'cmplid6',editor: {allowBlank: false}}
+                    ]
+                },
+                { text: 'Julio',flex: 3,
+                    columns:[
+                        { text: 'Fecha',width:100,dataIndex: 'salir7',editor: {allowBlank: false}},
+                        { text: 'Cumplimiento',width:110, dataIndex: 'cmplid7',editor: {allowBlank: false}}
+                    ]
+                },
+                { text: 'Agosto',flex: 3,
+                    columns:[
+                        { text: 'Fecha',width:100,dataIndex: 'salir8',editor: {allowBlank: false}},
+                        { text: 'Cumplimiento',width:110, dataIndex: 'cmplid8',editor: {allowBlank: false}}
+                    ]
+                },
+                { text: 'Septiembre',flex: 3,
+                    columns:[
+                        { text: 'Fecha',width:100,dataIndex: 'salir9',editor: {allowBlank: false}},
+                        { text: 'Cumplimiento',width:110, dataIndex: 'cmplid9',editor: {allowBlank: false}}
+                    ]
+                },
+                { text: 'Obtubre',flex: 3,
+                    columns:[
+                        { text: 'Fecha',width:100,dataIndex: 'salir10',editor: {allowBlank: false}},
+                        { text: 'Cumplimiento',width:110, dataIndex: 'cmplid10',editor: {allowBlank: false}}
+                    ]
+                },
+                { text: 'Noviembre',flex: 3,
+                    columns:[
+                        { text: 'Fecha',width:100,dataIndex: 'salir11',editor: {allowBlank: false}},
+                        { text: 'Cumplimiento',width:110, dataIndex: 'cmplid11',editor: {allowBlank: false}}
+                    ]
+                },
+                { text: 'Diciembre',flex: 3,
+                    columns:[
+                        { text: 'Fecha',width:100,dataIndex: 'salir12',editor: {allowBlank: false}},
+                        { text: 'Cumplimiento',width:110, dataIndex: 'cmplid12',editor: {allowBlank: false}}
+                    ]
+                }
+
+            ],
+            viewConfig: {
+                forceFit: true
+            },
+            bbar: {
+                xtype: 'pagingtoolbar',
+                pageSize: 10,
+                store: this.__data_store,
+                displayInfo: true,
+                plugins: new Ext.ux.ProgressBarPager()
+            },
+            listeners: {
+                selectionchange: {
+                    fn: function(View, selections, options) {
+                        if(selections.length == 0){
+                            this.Disable('EstimulosGestionar');
+                        }
+                        else
+                        {
+                            this.Enable('EstimulosGestionar');
+                        }
+
+                    },
+                    scope: this
+                }
+            }
+        });
+        var _panel = new Ext.Panel({
+            title: 'Plan de Vacaciones',
+            border: true,
+            frame: true,
+            layout: 'border',
+            height: App.GetDesktopHeigth(),
+            width: '100%',
+            items:_grid,
+            listeners: {
+                afterrender: function(){},
+                scope : this
+            }
+        });
+        return _panel;
+    }
+    // ========================================================================//
+    this.Free = function()
+    {
+        this.__data_store.removeAll(true);
+        delete this.__data_store;
+        this.__data_store = null;
+    }
+    // ========================================================================//
+    this.ShowMainWindow = function()
+    {
+        App.ShowMainPanel(null);
+    }
+}
+App.RegisterModule('PlanVacacion', new PlanVacacion());

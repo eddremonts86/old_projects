@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<subsystem name="Capacitacion">
+   <module name="Especialidad" desc="Gestionar Especialidades">
+        <js>Especialidad</js>
+        <functions>
+            <Gestionar-Especialistas source="EspecialidadGestionar" desc="Gestionar Especialidades"/>
+        </functions>
+    </module>
+    <module name="Cursos" desc="Gestionar Cursos">
+        <js>Cursos</js>
+        <functions>
+            <Gestionar-Cursos source="CursosGestionar" desc="Gestionar Cursos"/>
+        </functions>
+    </module>
+	 <module name="Cap_Trabajador" desc="Gestionar Capacitacion del Trabajador">
+        <js>Cap_Trabajador</js>
+        <functions>
+            <Gestionararea source="Cap_TrabajadorGestionar" desc="Gestionar Capacitacion del Trabajador"/>
+        </functions>
+    </module>
+    <module name="Class_Cientifica" desc="Gestionar Categoria Cientifica">
+        <js>Class_Cientifica</js>
+        <functions>
+            <Gestionar-Class-Cientifica source="Class_CientificaGestionar" desc="Gestionar Categoria Cientifica"/>
+        </functions>
+    </module>
+    <module name="Class_Docente" desc="Gestionar Categoria Docente">
+        <js>Class_Docente</js>
+        <functions>
+            <Gestionar-Class-Docente source="Class_DocenteGestionar" desc="Gestionar Categoria Docente"/>
+        </functions>
+    </module>
+    <module name="GradoC" desc="Gestionar Grado Cientifico">
+        <js>GradoC</js>
+        <functions>
+            <Gestionar-Grado-Cientiico source="GradoCGestionar" desc="Gestionar Grado Cientifico"/>
+        </functions>
+    </module>
+    <module name="Resumenes" desc="Ver todos reportes">
+        <js>Resumenes</js>
+        <functions>
+            <Resumenes source="ResumenesGestionar" desc="Ver reportes"/>
+        </functions>
+    </module>
+    <module name="SoliyAprob" desc="Solicidudes de cursos">
+        <js>SoliyAprob</js>
+        <functions>
+            <Solicitar-Aprobar source="SoliyAprobGestionar" desc="Solicidudes de cursos"/>
+        </functions>
+    </module>
+    <module name="AprobS" desc="Aprobar solicidudes de cursos">
+        <js>AprobS</js>
+        <functions>
+            <Solicitar-Aprobar source="AprobSGestionar" desc="Aprobar solicidudes de cursos"/>
+        </functions>
+    </module>
+    <module name="eventos" desc="Eventos">
+        <js>eventos</js>
+        <functions>
+            <Solicitar-Aprobar source="eventosGestionar" desc="Gesinar eventos"/>
+        </functions>
+    </module>
+    <module name="Plan" desc="Plan de capacitacion">
+        <js>Plan</js>
+        <functions>
+            <Solicitar-Aprobar source="PlanGestionar" desc="Gesinar del plan de capacitacion"/>
+        </functions>
+    </module>
+    <module name="Cumpli_Plan" desc="Cumplimiento del Plan">
+        <js>Cumpli_Plan</js>
+        <functions>
+            <Solicitar-Aprobar source="Cumpli_PlanGestionar" desc="Gesinar del plan de capacitacion"/>
+        </functions>
+    </module> 
+	<module name="Registro_Eventos" desc="Registro de eventos">
+        <js>Registro_Eventos</js>
+        <functions>
+            <Solicitar-Aprobar source="Registro_EventosGestionar" desc="Gesinar del plan de capacitacion"/>
+        </functions>Control_certificados
+    </module>
+	<module name="Control_certificados" desc="Control de Certificados">
+        <js>Control_certificados</js>
+        <functions>
+            <Solicitar-Aprobar source="Control_certificadosGestionar" desc="Gesinar del plan de capacitacion"/>
+        </functions>
+    </module>
+</subsystem>

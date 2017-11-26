@@ -1,0 +1,312 @@
+function Evaluaciones(){
+    this.__data_store = null;
+    this.Init = function()
+    {
+            var _menu_item_config_Evaluaciones =
+        {
+            text: 'Evaluaciones',
+            id: 'Evaluaciones_menu_id1',
+            iconCls: 'nomencladores',
+            handler: Ext.Function.bind(this.ShowMainWindow, this)
+        };
+        App.InsertMenuItem('Evaluaciones',_menu_item_config_Evaluaciones);
+
+    }
+    // ========================================================================//
+    this.BuildMainPanel = function(filterObj)
+    {
+        this.__data_store = App.BuildJsonStore('Evaluaciones.Evaluaciones.CargarDatos',{
+            fields: [
+            {name: 'nombre_completo'},
+            {name: 'indicadoresid'},
+            {name: 'id'},
+            {name: 'id_sp'},
+            {name: 'plan'},
+            {name: '_real'},
+            {name: 'cumpl'},
+            {name: 'orden'},
+            {name: 'obs'},
+            {name: 'comportamiento'},
+            {name: 'indicadoresid'},
+            {name: 'indicador'},
+            {name: 'sistema_pago'},
+            {name: 'formador'},
+            {name: 'cg'},
+            {name: 'ce'},
+            {name: 'trabajador_id'}
+            ],
+            groupField : 'sistema_pago',
+            proxy: {
+                type: 'ajax',
+                reader: {type: 'json',root: 'rows',totalProperty: 'results'}
+            },
+            autoLoad: false
+            });
+        var groupingFeature = Ext.create('Ext.grid.feature.Grouping',{
+            groupHeaderTpl: 'Sistema de Pago: {name} ' + ' ({rows.length})'
+        });
+        this.__data_store_cuadros = App.BuildJsonStore('Evaluaciones.Evaluaciones.CargarDatoscuadros',{
+            fields: [
+                {name: 'id'},
+                {name: 'nombre'}
+            ],
+            proxy: {
+                type: 'ajax',
+                reader: {type: 'json',root: 'rows',totalProperty: 'results'}
+            },
+            autoLoad: true
+        });
+        var _grid = new Ext.grid.Panel({
+            id: 'Evaluaciones_grid_id',
+            title: 'Historial de Señalamientos',
+            name: 'Evaluaciones_grid_id',
+            layout: 'anchor',
+            region: 'center',
+            border:true,
+            collapsible:true,
+            plugins: [
+                Ext.create('Ext.grid.plugin.CellEditing', {clicksToEdit: 1})
+            ],
+            store: this.__data_store,
+            columns: [
+                {hidden: false,header: 'Cuadro', dataIndex: 'formador',flex:5},
+                {hidden: false, header: 'Cuadro',dataIndex: 'formador',flex:1}
+            ],
+            bbar: {
+                xtype: 'pagingtoolbar',
+                pageSize: 10,
+                store: this.__data_store,
+                id: 'Evaluaciones_tbar_id',
+                items: [{
+                    xtype: 'button',
+                    text : 'Señalamiento',
+                    iconCls:'list_add_font16'
+                }],
+                height: 28
+            },
+            listeners: {
+                selectionchange: {
+                    fn: function(View, selections, options) {
+                        if(selections.length == 0){
+                            this.Disable('EvaluacionesGestionar');
+                        }
+                        else
+                        {
+                          this.Enable('EvaluacionesGestionar');
+                        }
+
+                    },
+                    scope: this
+                }
+            }
+        });
+        var mes =  Ext.create('Ext.form.ComboBox', {
+            fieldLabel: 'Choose State',
+            queryMode: 'local',
+            width:150,
+            displayField: 'name',
+            valueField: 'abbr',
+           hideLabel:true
+
+        });
+        var anno =  new Ext.form.field.Number({
+                            anchor: '100%',
+                            name: 'bottles',
+                            hideLabel:true,
+                            width:150,
+                            fieldLabel: 'Bottles of Beer',
+                            value:2014,
+                            maxValue: 2025,
+                            minValue: 2007
+                         });
+        var cellEditing = new Ext.grid.plugin.CellEditing({clicksToEdit: 2});
+        var panel_datos = Ext.create('Ext.form.Panel', {
+            title: 'Listado de Cuadros ',
+            bodyPadding: 5,
+            width: '65%',
+            layout:'fit',
+            id:'Evaluaciones_cuadros_form',
+            name:'Evaluaciones_cuadros_form',
+            region: 'west',
+            defaults: {anchor: '100%'},
+            items: [
+                {   xtype: 'grid',
+                    id:'grid',
+                    name:'grid',
+                    plugins: [cellEditing],
+                    border: false,
+                    columns: [
+                        {header: 'Nombre',menuDisabled: true,sortable : false,dataIndex: 'nombre',flex: 1},
+                        {header: 'Cargo',menuDisabled: true,sortable : false,dataIndex: 'nombre',flex: 1},
+                        {header: 'Violaciones',menuDisabled: true,sortable : false,dataIndex: 'nombre',flex: 1},
+                        {header: 'Controles',menuDisabled: true,sortable : false,dataIndex: 'nombre',flex: 1},
+                        {header: 'Reserva',menuDisabled: true,sortable : false,dataIndex: 'nombre',flex: 1},
+                        {header: 'Cumplimiento',menuDisabled: true,sortable : false,dataIndex: 'cumplimiento',flex: 1, lazyRender: true,
+                            editor: new Ext.form.field.ComboBox({
+                                    typeAhead: true,
+                                    triggerAction: 'all',
+                                    selectOnTab: true,
+                                    store: [
+                                        ['Shade','Shade'],
+                                        ['Mostly Shady','Mostly Shady'],
+                                        ['Sun or Shade','Sun or Shade'],
+                                        ['Mostly Sunny','Mostly Sunny'],
+                                        ['Sunny','Sunny']
+                                    ]})
+                        },
+                        {header: 'Penalizacion',menuDisabled: true,sortable : false,dataIndex: 'pena',flex: 1,editor: {allowBlank: false}},
+                        {header: 'Categoria',menuDisabled: true,sortable : false,dataIndex: 'categoria',flex: 1, lazyRender: true,
+                            editor: new Ext.form.field.ComboBox({
+                                typeAhead: true,
+                                triggerAction: 'all',
+                                selectOnTab: true,
+                                store: [
+                                    ['Shade','Shade'],
+                                    ['Mostly Shady','Mostly Shady'],
+                                    ['Sun or Shade','Sun or Shade'],
+                                    ['Mostly Sunny','Mostly Sunny'],
+                                    ['Sunny','Sunny']
+                                ]})
+                        }
+                    ],
+                    listeners: {
+                        selectionchange: {
+                            fn: function(View, selections, options) {
+                                var _selectionModel = Ext.getCmp('grid').getSelectionModel();
+                                var _selected_rcd = _selectionModel.getLastSelected();
+                                id=_selected_rcd.data.id;
+                                this.__data_store.load({
+                                    params:{
+                                        id:id,
+                                        start:0,
+                                        limit:25
+                                    }
+                                });
+                            },
+                            scope: this
+                        }
+                    },
+                    store: this.__data_store_cuadros,
+                    bbar: {
+                        xtype: 'pagingtoolbar',
+                        pageSize: 10,
+                        store: this.__data_store_cuadros,
+                        id: 'Evaluaciones_2tbar_id',
+                        items: [mes,anno,
+                            {
+                                xtype: 'button',
+                                text : 'Evaluacion',
+                                hideLabel:true,
+                                iconCls:'office_addressbook16',
+                                handler:function(){print();}
+                            },
+                            {
+                                xtype: 'button',
+                                text : 'CPL-ANAV',
+                                hideLabel:true,
+                                iconCls:'office_address_book16',
+                                handler:function(){
+                                var mywind2 =   Ext.create('Ext.window.Window', {
+                                        title: 'Definir CPL ANAV',
+                                        height: 255,
+                                        modal:true,
+                                        padding:10,
+                                        width: 500,
+                                        layout: 'anchor',
+                                        items: [
+                                            {
+                                                xtype: 'numberfield',
+                                               // anchor: '100%',
+                                                name: 'cpl1',
+                                                labelWidth :310,
+                                                id: 'cpl1',
+                                                fieldLabel: 'Cumpl. de los objetivos, tareas y misiones en el mes',
+                                                value: 1,
+                                                maxValue: 5,
+                                                minValue: 0
+                                            },{
+                                                xtype: 'numberfield',
+                                                labelWidth :310,
+                                                name: 'cpl2',
+                                                id: 'cpl2',
+                                                fieldLabel: 'Calidad del Trabajo realizado',
+                                                value: 1,
+                                                maxValue: 5,
+                                                minValue: 0
+                                            },{
+                                                xtype: 'numberfield',
+                                                labelWidth :310,
+                                                name: 'cpl3',
+                                                id: 'cpl3',
+                                                fieldLabel: 'Iniciativa en la solución y ejecución del trabajo',
+                                                value: 1,
+                                                maxValue: 5,
+                                                minValue: 0
+                                            },{
+                                                xtype: 'numberfield',
+                                                labelWidth :310,
+                                                name: 'cpl4',
+                                                id: 'cpl4',
+                                                fieldLabel: 'Disciplina laboral y tecn., aprovechamiento de la JL',
+                                                value: 1,
+                                                maxValue: 5,
+                                                minValue: 0
+                                            },{
+                                                xtype: 'numberfield',
+                                                labelWidth :310,
+                                                name: 'cpl5',
+                                                id: 'cpl5',
+                                                fieldLabel: 'Exigencia en el cumplimiento del mantenimiento',
+                                                value: 1,
+                                                maxValue: 5,
+                                                minValue: 0
+                                            }
+                                        ],
+                                        buttons: [
+                                            { text: 'Aceptar',handler:function(){
+
+                                            }},
+                                            { text: 'Cancelar',handler:function(){mywind2.close();} }
+                                        ]
+                                    }).show();
+
+                                }
+                            }],
+                        height: 28
+                    }
+                }
+            ]
+
+
+        });
+        var _panel = new Ext.Panel({
+            title: 'Gestionar Evaluaciones',
+            border: true,
+            frame: true,
+            layout: 'border',
+            height: App.GetDesktopHeigth(),
+            width: '100%',
+            items: [_grid,panel_datos],
+            listeners: {
+                afterrender: function() {
+
+                },
+                scope : this
+            }
+        });
+        return _panel;
+    }
+    // ========================================================================//
+    this.Free = function()
+    {
+        this.__data_store.removeAll(true);
+        delete this.__data_store;
+        this.__data_store = null;
+    }
+    // ========================================================================//
+    this.ShowMainWindow = function()
+    {
+        App.ShowMainPanel(null);
+    }
+}
+App.RegisterModule('Evaluaciones', new Evaluaciones());
