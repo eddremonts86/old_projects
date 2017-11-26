@@ -1,8 +1,0 @@
-!table
-!version 750
-!charset WindowsLatin1
-
-Definition Table
-  File "googlemap.xml"
-  Type "WMS"
-  CoordSys Earth Projection 1, 104

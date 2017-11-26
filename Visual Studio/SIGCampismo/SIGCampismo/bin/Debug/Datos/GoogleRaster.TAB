@@ -1,8 +1,0 @@
-!table
-!version 750
-!charset WindowsLatin1
-
-Definition Table
-  File "googleraster.xml"
-  Type "WMS"
-  CoordSys Earth Projection 1, 104

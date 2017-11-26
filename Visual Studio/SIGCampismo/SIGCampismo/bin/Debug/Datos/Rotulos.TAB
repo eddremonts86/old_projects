@@ -1,9 +1,0 @@
-!table
-!version 410
-!charset WindowsLatin1
-
-Definition Table
-  File "campismo.mdb"
-  Type ACCESS TABLE "Rotulos" Charset "WindowsLatin1"
-  Fields 1
-    Rótulo Char (10) ;

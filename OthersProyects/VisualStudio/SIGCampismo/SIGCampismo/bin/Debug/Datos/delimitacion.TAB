@@ -1,0 +1,10 @@
+!table
+!version 410
+!charset WindowsLatin1
+
+Definition Table
+  File "campismo.mdb"
+  Type ACCESS TABLE "delimitacion" Charset "WindowsLatin1"
+  Fields 2
+    ESPECIFICA Char (20) ;
+    uso Char (50) ;

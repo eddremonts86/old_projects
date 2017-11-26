@@ -1,0 +1,134 @@
+body {
+    padding:20px;
+    padding-top:32px;
+}
+.x-body {
+    font-family:helvetica,tahoma,verdana,sans-serif;
+    font-size:13px;
+}
+p {
+    margin-bottom:15px;
+}
+h1 {
+    font-size:18px;
+    margin-bottom:20px;
+}
+h2 {
+    font-size:14px;
+    color:#333;
+    font-weight:bold;
+    margin:10px 0;
+
+}
+pre.code{
+    background: #F8F8F8;
+    border: 1px solid #e8e8e8;
+    padding:10px;
+    margin:10px;
+    margin-left:0px;
+    border-left:5px solid #e8e8e8;
+    font-size: 12px !important;
+    line-height:14px !important;
+}
+.msg .x-box-mc {
+    font-size:14px;
+}
+#msg-div {
+    position:absolute;
+    left:35%;
+    top:10px;
+    width:300px;
+    z-index:20000;
+}
+#msg-div .msg {
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    background: #F6F6F6;
+    border: 2px solid #ccc;
+    margin-top: 2px;
+    padding: 10px 15px;
+    color: #555;
+}
+#msg-div .msg h3 {
+    margin: 0 0 8px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#msg-div .msg p {
+    margin: 0;
+}
+.win_btn{
+    background-image: url(../img/icons/win.png) !important ;
+    background-repeat: no-repeat;
+}
+.ayuda{
+    border-image-repeat: stretch;
+    background-image: url(../img/icons/help.png)!important;
+
+}
+.bloqueo{
+    background-image: url(../img/icons/key.png) !important;
+    background-repeat: no-repeat;
+}
+.salir{
+    background-image: url(../img/icons/go.png) !important;
+    background-repeat: no-repeat;
+}
+
+
+table.main tr td{
+    font-size:x-small;
+    border-right:1px solid #157FCC;
+    border-bottom:1px solid #157FCC;
+    padding-left:2px;
+    padding-right:2px;
+}
+table tr td, h3{
+    font-size:x-small;
+    padding-left:2px;
+    padding-right:2px;
+}
+table.main {
+    border:1px solid #157FCC;
+    border-radius:0px 0px 5px 5px;
+}
+.header{
+    background-color:#86C5F2;
+    border-bottom:1px solid #157FCC !important;
+    border-right:1px solid #157FCC !important;
+}
+table.main tr td.header:last-child{
+    border:none !important;
+    border-bottom:1px solid #157FCC !important;
+}
+table.main tr td:last-child{
+    border-right:none;
+}
+table.main tr:last-child td{
+    border-bottom:none !important;
+}
+
+.contenedor_head{
+    background-color: #157FCC;
+    border: 1px solid #157FCC;
+    height: 15px;
+    border-radius: 4px 0 4px 0;
+    border-bottom:1px solid #1d81ee;
+    border-right:1px solid #1d81ee;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+}
+.contenedor {
+    background-color: #FFFFFF;
+    border: 1px solid #157FCC;
+    border-radius: 4px 4px 4px 4px;
+    margin: 0;
+    padding: 40px 20px 15px;
+    position: relative;
+    overflow-y:hidden;   
+}
