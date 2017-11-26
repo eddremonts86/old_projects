@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<App>
-    <subsystem name="Admin"/> 
-    <subsystem name="Plantilla"/>
-    <subsystem name="Capacitacion"/>     
-    <subsystem name="SistemaBase"/>
-    <subsystem name="Cuadro"/>
-    <subsystem name="Salario"/>
-</App>

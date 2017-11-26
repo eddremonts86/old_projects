@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<root>
-  <nombre_empresa>Empresa Geocuba Pinar del Río</nombre_empresa>
-  <cn_usuario>OU=Campamento,DC=apr,DC=geocuba,DC=cu</cn_usuario>
-  <ldap_ip>192.168.152.2</ldap_ip>
-  <dominio>apr.geocuba.cu</dominio>
-</root>
